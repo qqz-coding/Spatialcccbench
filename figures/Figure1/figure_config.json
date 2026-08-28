@@ -1,0 +1,11 @@
+{
+  "figure": "Figure1",
+  "caption": "Coverage and similarity of LR pairs associated with CCC across tools.",
+  "status": "partial_notebook_manual_assembly",
+  "notes": "Coverage/similarity; final assembly is not fully scriptable.",
+  "published_result": "results/published/Figure1.svg",
+  "steps": [],
+  "published_files": [
+    "results\\published\\Figure1.svg"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "figure": "FigureS5",
+  "caption": "Spatial autocorrelation workflow and classification thresholds.",
+  "status": "precomputed_results_only_no_autocorrelation_recalculation",
+  "notes": "Historical ESDA methods are not called by the Figure shortcut.",
+  "published_result": "results/published/FigureS5.svg",
+  "steps": [],
+  "published_files": [
+    "results\\published\\FigureS5.svg"
+  ]
+}

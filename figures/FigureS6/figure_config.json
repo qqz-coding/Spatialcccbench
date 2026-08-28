@@ -1,0 +1,11 @@
+{
+  "figure": "FigureS6",
+  "caption": "Runtime and memory usability analysis.",
+  "status": "notebook_helpers_partial",
+  "notes": "Runtime/memory source is retained as a notebook reference.",
+  "published_result": "results/published/FigureS6.svg",
+  "steps": [],
+  "published_files": [
+    "results\\published\\FigureS6.svg"
+  ]
+}

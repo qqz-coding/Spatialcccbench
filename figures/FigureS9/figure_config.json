@@ -1,0 +1,11 @@
+{
+  "figure": "FigureS9",
+  "caption": "Boundary signal simulation details.",
+  "status": "manual_schematic",
+  "notes": "Boundary simulation schematic retained as submitted reference.",
+  "published_result": "results/published/FigureS9.svg",
+  "steps": [],
+  "published_files": [
+    "results\\published\\FigureS9.svg"
+  ]
+}

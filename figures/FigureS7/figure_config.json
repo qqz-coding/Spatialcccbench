@@ -1,0 +1,11 @@
+{
+  "figure": "FigureS7",
+  "caption": "Additional supplementary benchmark panels.",
+  "status": "notebook_only",
+  "notes": "Shared original notebook source.",
+  "published_result": "results/published/FigureS7.svg",
+  "steps": [],
+  "published_files": [
+    "results\\published\\FigureS7.svg"
+  ]
+}

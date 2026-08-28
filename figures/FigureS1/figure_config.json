@@ -1,0 +1,11 @@
+{
+  "figure": "FigureS1",
+  "caption": "Data preprocessing, simulation, baseline setup, tool execution, and downstream workflow.",
+  "status": "manual_workflow_diagram",
+  "notes": "Workflow diagram retained as submitted reference.",
+  "published_result": "results/published/FigureS1.svg",
+  "steps": [],
+  "published_files": [
+    "results\\published\\FigureS1.svg"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "figure": "FigureS3",
+  "caption": "Spatial autocorrelation examples in DLPFC and mouse brain data.",
+  "status": "precomputed_h5ad_redraw",
+  "notes": "Reads existing DLPFC/MF h5ad objects; no Moran/Geary recalculation.",
+  "published_result": "results/published/FigureS3.svg",
+  "steps": [
+    {
+      "name": "DLPFC/MF precomputed h5ad maps",
+      "script": "scripts/figures3_draw_bottom_legends_new_mf.py",
+      "cwd": "data-root"
+    }
+  ],
+  "published_files": [
+    "results\\published\\FigureS3.svg"
+  ]
+}

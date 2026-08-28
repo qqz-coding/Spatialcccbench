@@ -1,0 +1,34 @@
+{
+  "figure": "Figure2",
+  "caption": "Spatial autocorrelation analysis of CCC analysis tools.",
+  "status": "precomputed_autocorrelation_redraw",
+  "notes": "Reads existing local Moran/Geary arrays and existing tool results; no autocorrelation calculation.",
+  "published_result": "results/published/Figure2.svg",
+  "steps": [
+    {
+      "name": "local Moran/Geary maps",
+      "script": "scripts/figure2_ab_cxcl10_cxcr3_local_moran_geary_maps.py"
+    },
+    {
+      "name": "CDF curves",
+      "script": "scripts/figure2_cd_method1_method2_cdf_three_spatial_types.py"
+    },
+    {
+      "name": "representative interaction maps",
+      "script": "scripts/figure2_eh_export_representative_interaction_svgs.py"
+    },
+    {
+      "name": "Method 1 distributions",
+      "script": "scripts/figure2_cd_ij_tool_autocorr_method1_distributions.py"
+    },
+    {
+      "name": "Method 2 distributions",
+      "script": "scripts/figure2_cd_ij_tool_autocorr_method2_distributions.py"
+    }
+  ],
+  "published_files": [
+    "results\\published\\Figure2.svg",
+    "results\\published\\panels\\spatial_autocorrelation__figures__Method_1_CDF_three_spatial_autocorr_types.svg",
+    "results\\published\\panels\\spatial_autocorrelation__figures__Method_2_CDF_three_spatial_autocorr_types.svg"
+  ]
+}

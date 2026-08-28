@@ -1,0 +1,11 @@
+{
+  "figure": "FigureS8",
+  "caption": "Additional tool comparison and autocorrelation panels.",
+  "status": "notebook_only",
+  "notes": "Shared original notebook source.",
+  "published_result": "results/published/FigureS8.svg",
+  "steps": [],
+  "published_files": [
+    "results\\published\\FigureS8.svg"
+  ]
+}

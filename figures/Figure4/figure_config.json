@@ -1,0 +1,36 @@
+{
+  "figure": "Figure4",
+  "caption": "Robustness analysis under six noise perturbations.",
+  "status": "computational_figure4b_manual_figure4a_assembly",
+  "notes": "Noise robustness panels are reproducible from processed metrics; schematic remains reference-only.",
+  "published_result": "results/published/Figure4.svg",
+  "steps": [
+    {
+      "name": "noise robustness SVGs",
+      "script": "scripts/plot_processed_noise_resistance.py",
+      "args": [
+        "--noise-csv",
+        "figures/Figure4/inputs/processed_noise.csv",
+        "--summary-csv",
+        "figures/Figure4/inputs/result_summary.csv",
+        "--out-dir",
+        "{output}",
+        "--skip-summary-update"
+      ]
+    }
+  ],
+  "published_files": [
+    "results\\published\\Figure4.svg",
+    "results\\published\\panels\\Baseline_1_spider_plot.svg",
+    "results\\published\\panels\\Baseline_2_spider_plot.svg",
+    "results\\published\\panels\\CellAgentChat_spider_plot.svg",
+    "results\\published\\panels\\COMMOT_spider_plot.svg",
+    "results\\published\\panels\\Giotto_spider_plot.svg",
+    "results\\published\\panels\\precision_recall_f1_legend.svg",
+    "results\\published\\panels\\SpaTalk_spider_plot.svg",
+    "results\\published\\panels\\SpatialDM_spider_plot.svg",
+    "results\\published\\panels\\Squidpy_spider_plot.svg",
+    "results\\published\\panels\\stLearn_spider_plot.svg",
+    "results\\published\\panels\\stLearn_without_spotmixture_spider_plot.svg"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "figure": "FigureS4",
+  "caption": "ROI-associated pathway gene enrichment / KEGG summary.",
+  "status": "notebook_only",
+  "notes": "Pathway enrichment source is an original notebook.",
+  "published_result": "results/published/FigureS4.svg",
+  "steps": [],
+  "published_files": [
+    "results\\published\\FigureS4.svg"
+  ]
+}

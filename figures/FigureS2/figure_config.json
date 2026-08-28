@@ -1,0 +1,11 @@
+{
+  "figure": "FigureS2",
+  "caption": "Consensus-based performance and related supplementary evaluations.",
+  "status": "notebook_helpers_partial",
+  "notes": "Source is shared with supplementary benchmark notebooks.",
+  "published_result": "results/published/FigureS2.svg",
+  "steps": [],
+  "published_files": [
+    "results\\published\\FigureS2.svg"
+  ]
+}
