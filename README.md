@@ -35,6 +35,6 @@ Spatial-autocorrelation Figure scripts read precomputed h5ad/CSV arrays. They do
 
 ## Repository boundary
 
-The historical `Manuscript_Figure/`, `result/`, and `example/` trees are retained from the anonymous release for provenance. The canonical, one-to-one Figure organization is under `figures/`; large local data and generated caches are excluded by `.gitignore`.
+The canonical, one-to-one Figure organization is under `figures/`; full local result trees and generated caches are excluded by `.gitignore`. The stLearn DLPFC h5ad inputs required to audit Figure3/Figure5 boundary adaptation are explicitly versioned under `result/` with Git LFS.
 
 The submitted SVG is stored as `results/published/<Figure>.svg`. Computational redraws are written to `results/generated/` and remain separate from the submitted final layout, especially where the final figure contains manual assembly.

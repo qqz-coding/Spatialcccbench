@@ -33,6 +33,12 @@
       "interpretation": "D = max_x |F_original(x) - F_gradient(x)| and 0 <= D <= 1. Larger values indicate a stronger distribution shift; D does not encode the direction of change."
     }
   },
+  "boundary_metric_audit": {
+    "source": "inputs/boundary_metrics_from_latest_results.csv",
+    "recompute_script": "scripts/recompute_boundary_metrics.py",
+    "stlearn_data_root": "../../result",
+    "verified_on": "2026-08-28"
+  },
   "published_result": "results/published/Figure5.svg",
   "steps": [
     {

@@ -1,6 +1,8 @@
 # Data policy
 
-The GitHub-ready project does not duplicate the full local workspace. Large h5ad files, full tool result trees, caches, and intermediate pickles remain external. Each Figure shortcut accepts `--data-root` for those inputs.
+The GitHub-ready project does not duplicate the full local workspace. Full tool result trees, caches, and intermediate pickles remain external. Each Figure shortcut accepts `--data-root` for those inputs.
+
+The stLearn DLPFC h5ad files used to audit Figure3/Figure5 boundary adaptation are the exception. The original, edge-equalized, gradient-changed, and four signal-loss levels are stored under `result/` with Git LFS. Their checksums are recorded in `result/stlearn_h5ad_manifest.csv`.
 
 Small precomputed CDF tables and the current processed noise/result-summary tables are included where they are directly needed by the published Figure examples.
 
