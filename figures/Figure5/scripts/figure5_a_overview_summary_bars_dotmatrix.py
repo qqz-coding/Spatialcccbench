@@ -19,41 +19,6 @@ DATA_ROOT = Path(os.environ.get("SPATIALCCCBENCH_DATA_ROOT", Path(__file__).reso
 OUT_DIR = Path(os.environ.get("SPATIALCCCBENCH_OUTPUT_DIR", Path(__file__).resolve().parents[1] / "results" / "generated"))
 SUMMARY_CSV = Path(os.environ.get("SPATIALCCCBENCH_SUMMARY_CSV", DATA_ROOT / "result_summary.csv"))
 
-DISPLAY_TOOL_ORDER = [
-    "Baseline_1",
-    "Baseline_2",
-    "CellAgentChat",
-    "COMMOT",
-    "Giotto",
-    "SpaTalk",
-    "SpatialDM",
-    "Squidpy",
-    "stLearn",
-    "stLearn*",
-]
-
-
-RC_PARAMS = {
-    "font.family": "Arial",
-    "font.sans-serif": ["Arial", "Helvetica", "DejaVu Sans"],
-    "font.size": 7,
-    "axes.labelsize": 8,
-    "axes.titlesize": 9,
-    "xtick.labelsize": 7,
-    "ytick.labelsize": 7,
-    "axes.linewidth": 0.6,
-    "xtick.major.width": 0.6,
-    "ytick.major.width": 0.6,
-    "xtick.major.size": 2.5,
-    "ytick.major.size": 2.5,
-    "pdf.fonttype": 42,
-    "ps.fonttype": 42,
-    "svg.fonttype": "none",
-    "figure.facecolor": "white",
-    "axes.facecolor": "white",
-}
-
-
 def min_max_normalize(values):
     values = pd.Series(values, dtype=float)
     min_val = values.min()
@@ -90,22 +55,19 @@ def get_color_ranks(values):
 
 
 def save_figure(fig, stem):
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
     for suffix in ("png", "pdf", "svg"):
-        is_svg = suffix == "svg"
         fig.savefig(
             OUT_DIR / f"{stem}.{suffix}",
             dpi=300,
             bbox_inches="tight",
-            transparent=is_svg,
-            facecolor="none" if is_svg else "white",
-            edgecolor="none" if is_svg else "white",
+            transparent=True,
         )
     plt.close(fig)
 
 
 def prepare_result():
     result = pd.read_csv(SUMMARY_CSV, index_col=0)
-    result = result.reindex([tool for tool in DISPLAY_TOOL_ORDER if tool in result.index])
     result["coverage"] = np.log10(result["Count"])
     result["tool"] = result.index
     result["Spatial_auto"] = result[["Spatial_auto_1", "Spatial_auto_2"]].mean(axis=1)
@@ -113,8 +75,6 @@ def prepare_result():
     result["Enrichment"] = min_max_normalize(result["Enrichment"])
     if "time" in result.columns:
         result["time"] = np.log10(result["time"])
-    if "memory" in result.columns:
-        result["memory"] = np.log10(result["memory"])
     return result
 
 
@@ -156,40 +116,50 @@ def plot_bar_summary(result, color_dict):
         ("Recall", "Recall", create_color_map(color_dict["Recall"])),
         ("F1 Score", "F1 score", create_color_map(color_dict["F1 Score"])),
         ("Enrichment", "Biological feature", create_color_map(color_dict["Enrichment"])),
-        ("Variance level", "Spatial variance", create_color_map(color_dict["Variance level"])),
-        ("Spatial_auto", "Spatial auto corr", create_color_map(color_dict["Spatial_auto"])),
-        ("time", "Time cost", create_color_map(color_dict["time"])),
-        ("memory", "Memory cost", create_color_map(color_dict["memory"])),
+        ("Variance level", "Spatial_variance", create_color_map(color_dict["Variance level"])),
+        ("Spatial_auto", "Spatial_auto_corr", create_color_map(color_dict["Spatial_auto"])),
+        ("time", "Time_cost", create_color_map(color_dict["time"])),
+        ("memory", "Mermory_cost", create_color_map(color_dict["memory"])),
     ]
     metrics = available_metrics(result, metrics)
     methods = result.index
 
-    fig, axes = plt.subplots(1, len(metrics), figsize=(1.05 * len(metrics), len(methods) * 0.36 + 1.4))
+    fig, axes = plt.subplots(1, len(metrics), figsize=(30, len(methods) * 1.5), facecolor="none")
+    fig.patch.set_alpha(0)
     axes = np.atleast_1d(axes)
+    for ax in axes:
+        ax.set_facecolor("none")
+        for spine in ax.spines.values():
+            spine.set_visible(False)
     for i, (col, title, cmap) in enumerate(metrics):
         ax = axes[i]
         values = result[col]
         colors = [cmap(x) for x in get_color_ranks(values)]
-        ax.barh(range(len(methods)), values, color=colors, edgecolor="none", linewidth=0)
-        ax.set_title(title, fontsize=8, pad=6, y=-0.36, rotation=60, ha="center", va="bottom")
+        ax.barh(range(len(methods)), values, color=colors, edgecolor="none", linewidth=0.5)
+        ax.set_title(title, fontsize=12, pad=10, color="Black", loc="center", y=-0.3, rotation=60,
+                     horizontalalignment="center", verticalalignment="bottom")
         ax.set_yticks(range(len(methods)))
-        ax.set_yticklabels(methods if i == 0 else [], fontsize=7)
+        ax.set_yticklabels(methods if i == 0 else [], fontsize=10)
         ax.invert_yaxis()
-        ax.tick_params(axis="x", length=0, labelbottom=False)
-        ax.tick_params(axis="y", length=0)
-        for spine in ax.spines.values():
-            spine.set_visible(False)
-        ax.set_facecolor("white")
-    fig.patch.set_facecolor("white")
-    fig.subplots_adjust(wspace=0.12, bottom=0.24)
     save_figure(fig, "bar_summary")
 
 
-def plot_dot_matrix(result, metrics, stem, width_per_col=0.72):
+def plot_dot_matrix(result, metrics, stem, figsize):
     methods = result.index
-    fig, axes = plt.subplots(1, len(metrics), figsize=(width_per_col * len(metrics), len(methods) * 0.42 + 1.3))
+    fig, axes = plt.subplots(1, len(metrics), figsize=figsize, facecolor="none")
     axes = np.atleast_1d(axes)
-    size_scale = np.array([45, 90, 135, 180, 225, 270])
+    for i, ax in enumerate(axes):
+        ax.set_facecolor("none")
+        for spine in ax.spines.values():
+            spine.set_visible(False)
+        ax.xaxis.set_visible(False)
+        if i == 0:
+            ax.spines["left"].set_visible(True)
+            ax.yaxis.set_visible(True)
+        else:
+            ax.yaxis.set_visible(False)
+
+    size_scale = np.array([80, 160, 240, 320, 400, 480])
 
     for i, (col, title, cmap) in enumerate(metrics):
         ax = axes[i]
@@ -205,30 +175,21 @@ def plot_dot_matrix(result, metrics, stem, width_per_col=0.72):
             s=sizes,
             c=colors,
             edgecolor="none",
-            linewidth=0,
-            alpha=0.9,
+            linewidth=0.5,
+            alpha=0.8,
         )
-        ax.set_title(title, fontsize=8, pad=6, y=-0.36, rotation=60, ha="center", va="bottom")
-        ax.set_xlim(0.5, 1.5)
+        ax.set_title(title, fontsize=12, pad=10, color="Black", loc="center", y=-0.3, rotation=60,
+                     horizontalalignment="center", verticalalignment="bottom")
         ax.set_yticks(range(len(methods)))
-        ax.set_yticklabels(methods if i == 0 else [], fontsize=7)
+        ax.set_yticklabels(methods if i == 0 else [], fontsize=10)
         ax.invert_yaxis()
-        ax.xaxis.set_visible(False)
-        ax.tick_params(axis="y", length=0)
-        for spine in ax.spines.values():
-            spine.set_visible(False)
-        if i == 0:
-            ax.spines["left"].set_visible(True)
-            ax.spines["left"].set_linewidth(0.6)
-        ax.set_facecolor("white")
-
-    fig.patch.set_facecolor("white")
-    fig.subplots_adjust(wspace=0.02, bottom=0.24)
+    fig.subplots_adjust(wspace=0, hspace=0)
     save_figure(fig, stem)
 
 
 def main():
-    plt.rcParams.update(RC_PARAMS)
+    plt.rcdefaults()
+    plt.rcParams["svg.fonttype"] = "path"
     result = prepare_result()
     gradients, color_dict = build_gradients()
 
@@ -239,13 +200,13 @@ def main():
         ("dropout_F1", "Drop out", create_color_map(gradients[8])),
         ("non_specific_F1", "Non-specific", create_color_map(gradients[8])),
         ("up_F1", "Random\ninterpolation", create_color_map(gradients[8])),
-        ("offset_F1", "Off set", create_color_map(gradients[8])),
+        ("offset_F1", "Off_set", create_color_map(gradients[8])),
         ("lack_F1", "Spot lack", create_color_map(gradients[8])),
-        ("dropdown_edge", "Edge signal loss", create_color_map(gradients[9])),
-        ("equal_edge", "Edge equalized", create_color_map(gradients[9])),
-        ("gradient_edge", "Edge gradient change", create_color_map(gradients[9])),
+        ("dropdown_edge", "Edge_signal_loss", create_color_map(gradients[9])),
+        ("equal_edge", "Edge_equalized", create_color_map(gradients[9])),
+        ("gradient_edge", "Edge_gradient_change", create_color_map(gradients[9])),
     ]
-    plot_dot_matrix(result, available_metrics(result, noise_metrics), "bar_noise_sum", width_per_col=0.7)
+    plot_dot_matrix(result, available_metrics(result, noise_metrics), "bar_noise_sum", (10, len(result) * 1))
 
     dot_metrics = [
         ("coverage", "Coverage", create_color_map(color_dict["coverage"])),
@@ -253,10 +214,10 @@ def main():
         ("Precision", "Precision", create_color_map(color_dict["Precision"])),
         ("Recall", "Recall", create_color_map(color_dict["Recall"])),
         ("F1 Score", "F1 score", create_color_map(color_dict["F1 Score"])),
-        ("Variance level", "Spatial variance", create_color_map(color_dict["Variance level"])),
-        ("Spatial_auto", "Spatial auto corr", create_color_map(color_dict["Spatial_auto"])),
+        ("Variance level", "Spatial_variance", create_color_map(color_dict["Variance level"])),
+        ("Spatial_auto", "spatial_auto_corr", create_color_map(color_dict["Spatial_auto"])),
     ]
-    plot_dot_matrix(result, available_metrics(result, dot_metrics), "dot_sum", width_per_col=0.74)
+    plot_dot_matrix(result, available_metrics(result, dot_metrics), "dot_sum", (7, len(result) * 1))
 
     print(f"Saved summary figures to {OUT_DIR}")
 
