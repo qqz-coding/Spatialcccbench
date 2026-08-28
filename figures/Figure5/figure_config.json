@@ -2,7 +2,7 @@
   "figure": "Figure5",
   "caption": "Overview of the evaluation framework and guidelines for users.",
   "status": "computational_figure5a_manual_figure5b_assembly",
-  "notes": "Evaluation summary is reproducible; decision framework remains reference-only. Noise updates are restricted to the six noise F1 columns, while edge-adoption and every other summary column are preserved. Plot geometry and row order follow Figure5(summary).ipynb.",
+  "notes": "Evaluation summary is reproducible; decision framework remains reference-only. Noise updates are restricted to the six noise F1 columns, while the three boundary-impact columns and every other summary column are preserved. Plot geometry and row order follow Figure5(summary).ipynb.",
   "noise_update_policy": {
     "utility_script": "scripts/update_result_summary_noise_only.py",
     "mutable_columns": [
@@ -18,6 +18,20 @@
       "equal_edge",
       "gradient_edge"
     ]
+  },
+  "boundary_metric_definitions": {
+    "dropdown_edge": {
+      "statistic": "Mean signed raw ligand-count difference across the 20%, 40%, 60%, and 80% edge-dropout results; no tool-size normalization is applied.",
+      "interpretation": "A larger positive value means more ligand calls were lost on average. A negative value means the perturbed result contained more calls. Values are scale-dependent across tools."
+    },
+    "equal_edge": {
+      "statistic": "Two-sample Kolmogorov-Smirnov D statistic comparing original and edge-equalized ligand-count distributions.",
+      "interpretation": "D = max_x |F_original(x) - F_equalized(x)| and 0 <= D <= 1. Larger values indicate a stronger distribution shift; D does not encode the direction of change."
+    },
+    "gradient_edge": {
+      "statistic": "Two-sample Kolmogorov-Smirnov D statistic comparing original and gradient-changed ligand-count distributions.",
+      "interpretation": "D = max_x |F_original(x) - F_gradient(x)| and 0 <= D <= 1. Larger values indicate a stronger distribution shift; D does not encode the direction of change."
+    }
   },
   "published_result": "results/published/Figure5.svg",
   "steps": [
