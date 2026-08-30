@@ -185,9 +185,16 @@ def install_tools(args: argparse.Namespace, tools: dict[str, dict[str, Any]]) ->
     existing = environment_names(manager) if resolved_manager else set()
     env_specs: dict[str, tuple[Path, list[str] | None]] = {}
 
+    install_all = not args.tools or args.tools == ["all"]
     for tool_id, spec in selected_tools(args.tools, tools):
         if spec.get("platform_note"):
             print(f"[platform note] {tool_id}: {spec['platform_note']}")
+        if install_all and spec["status"] == "unavailable":
+            print(
+                f"[skip] {tool_id}: dependency snapshot is not installed by default "
+                "because its runner is unavailable"
+            )
+            continue
         env_name = spec.get("environment")
         env_file = spec.get("environment_file")
         if not env_name or not env_file:
@@ -350,7 +357,12 @@ def doctor(args: argparse.Namespace, tools: dict[str, dict[str, Any]]) -> None:
         env_file_ok = bool(env_file and env_file.is_file())
         env_ok = bool(spec.get("environment") and spec["environment"] in installed)
         if spec["status"] == "unavailable":
-            print(f"[unavailable] {tool_id}: {spec.get('reason', '')}")
+            print(
+                f"[unavailable runner] {tool_id}: "
+                f"env-file={'yes' if env_file_ok else 'no'}, "
+                f"installed={'yes' if env_ok else 'no'}; {spec.get('reason', '')}"
+            )
+            failures += int(not env_file_ok)
             continue
         print(
             f"[{'ok' if runner_ok and env_file_ok else 'fail'}] {tool_id}: "

@@ -7,20 +7,28 @@ Each YAML includes `nodefaults`, preventing a user's global `.condarc` mirrors o
 | Environment | Historical core versions |
 |---|---|
 | `spatialccc-squidpy` | Python 3.9, AnnData 0.10.9, Scanpy 1.10.0, Squidpy 1.2.2 |
+| `spatialccc-baselines` | Python 3.10, AnnData 0.10.9, Scanpy 1.10.0, SciPy 1.11.4 |
 | `spatialccc-commot` | Python 3.11, AnnData 0.11.3, Scanpy 1.11.0, COMMOT 0.0.3 |
 | `spatialccc-spatialdm` | Python 3.9, AnnData 0.10.x, Scanpy 1.10.3, SpatialDM 0.2.0 |
 | `spatialccc-stlearn` | Python 3.8, stLearn 0.4.12, TensorFlow 2.4.1, Scanpy 1.9.8 |
 | `spatialccc-spatalk` | R 4.2 plus SpaTalk and NNLM from their upstream repositories |
 | `spatialccc-giotto` | R 4.2 plus Giotto v3.3.2 |
+| `spatialccc-cellagentchat` | Python 3.10, AnnData 0.11.4, Scanpy 1.11.1, PyTorch 2.6.0; dependency snapshot only |
 
 Install through the dispatcher rather than calling the YAML files manually:
 
 ```bash
 python tools/run.py install squidpy commot spatialdm
+python tools/run.py install baseline_1
 python tools/run.py install stlearn
 python tools/run.py install spatalk giotto
+python tools/run.py install cellagentchat  # dependencies only; no runner was deposited
 ```
 
 `install_r_packages.R` is called automatically after the R Conda environments are created. Network access and a working compiler toolchain may be required. stLearn 0.4.12 and TensorFlow 2.4.1 are most reliably reproduced on Linux or WSL.
+
+The two baselines share `spatialccc-baselines`, and both stLearn modes share `spatialccc-stlearn`, because each pair uses the same package stack. `tool_environment_matrix.csv` records the complete tool-to-configuration mapping.
+
+The CellAgentChat YAML is retained only as a dependency snapshot from the archived environment. It does not restore the missing implementation: every deposited `run_CellAgentChat.py` was an empty 0-byte file, so the dispatcher will not claim that the tool can run.
 
 The environment files reproduce the recorded direct versions but are not byte-for-byte lock files for every operating system. After installation, keep `conda list --explicit` and `sessionInfo()` with the run log when archival-level provenance is required.

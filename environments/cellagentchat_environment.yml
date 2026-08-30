@@ -1,0 +1,16 @@
+name: spatialccc-cellagentchat
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=1.26.4
+  - scipy=1.15.2
+  - pandas=2.2.3
+  - scikit-learn=1.5.2
+  - h5py
+  - pip:
+      - anndata==0.11.4
+      - scanpy==1.11.1
+      - torch==2.6.0

@@ -1,0 +1,11 @@
+tool,environment,config,status,notes
+squidpy,spatialccc-squidpy,environments/squidpy_environment.yml,ready,Dedicated Squidpy environment
+baseline_1,spatialccc-baselines,environments/baseline_environment.yml,ready,Shared by both manuscript baselines
+baseline_2,spatialccc-baselines,environments/baseline_environment.yml,ready,Shared by both manuscript baselines
+commot,spatialccc-commot,environments/commot_environment.yml,ready,Dedicated COMMOT environment
+spatialdm,spatialccc-spatialdm,environments/spatialdm_environment.yml,ready,Dedicated SpatialDM environment
+stlearn,spatialccc-stlearn,environments/stlearn_environment.yml,ready,Shared dependency stack; Linux or WSL recommended
+stlearn_without_spotmixture,spatialccc-stlearn,environments/stlearn_environment.yml,ready,Shared dependency stack; Linux or WSL recommended
+spatalk,spatialccc-spatalk,environments/spatalk_environment.yml,legacy,Conda R base plus upstream R package installer
+giotto,spatialccc-giotto,environments/giotto_environment.yml,legacy,Conda R base plus upstream R package installer
+cellagentchat,spatialccc-cellagentchat,environments/cellagentchat_environment.yml,dependency_snapshot,Runner source was absent; configuration records historical dependencies only

@@ -41,15 +41,15 @@ python tools/run.py run commot --dataset demo --adata demo.h5ad \
 | Tool ID | Environment | Output below `result/<dataset>/` | State |
 |---|---|---|---|
 | `squidpy` | `spatialccc-squidpy` | `cellphoneDB/result.csv` | Ready |
-| `baseline_1` | `spatialccc-squidpy` | `baseline_1/result.csv` | Ready |
-| `baseline_2` | `spatialccc-squidpy` | `baseline_2/result.csv` | Ready |
+| `baseline_1` | `spatialccc-baselines` | `baseline_1/result.csv` | Ready |
+| `baseline_2` | `spatialccc-baselines` | `baseline_2/result.csv` | Ready |
 | `commot` | `spatialccc-commot` | `COMMOT/result.h5ad` | Ready |
 | `spatialdm` | `spatialccc-spatialdm` | `spatialDM/result.csv` | Ready |
 | `stlearn` | `spatialccc-stlearn` | `stlearn/result.h5ad` | Ready, Linux/WSL recommended |
 | `stlearn_without_spotmixture` | `spatialccc-stlearn` | `stlearn/result_without_mixture.h5ad` | Ready, Linux/WSL recommended |
 | `spatalk` | `spatialccc-spatalk` | `spatalk/result.csv` | Manuscript-era R workflow |
 | `giotto` | `spatialccc-giotto` | `giotto/result.csv` | Giotto `v3.3.2` workflow |
-| `cellagentchat` | External | `cellagentchat/result.csv` | Upstream runner unavailable |
+| `cellagentchat` | `spatialccc-cellagentchat` | `cellagentchat/result.csv` | Dependency snapshot; upstream runner unavailable |
 
 The Squidpy result directory remains named `cellphoneDB` to preserve the published `toolkit.preprocess` contract. This does not invoke the CellPhoneDB package.
 
@@ -98,6 +98,8 @@ Jobs run sequentially. Each run writes a combined stdout/stderr log to `result/<
 
 The runners preserve manuscript preprocessing, permutation counts, output schemas, and stLearn spot-mixture modes. They execute CCC tools but do not launch the separate post hoc Moran/Geary workflow used for the spatial-autocorrelation Figures.
 
-Every archived `run_CellAgentChat.py` found in the deposited project is an empty 0-byte file. The dispatcher therefore reports CellAgentChat as unavailable rather than inventing an implementation. Existing CellAgentChat result CSV files remain readable by `toolkit.preprocess`.
+Every tool label has an explicit environment mapping in `environments/tool_environment_matrix.csv`. Modes that use the same software stack intentionally share one environment definition.
+
+Every archived `run_CellAgentChat.py` found in the deposited project is an empty 0-byte file. Its YAML records the historical dependency stack, but the dispatcher reports its runner as unavailable rather than inventing an implementation. Existing CellAgentChat result CSV files remain readable by `toolkit.preprocess`.
 
 Upstream installation references: [Squidpy](https://squidpy.readthedocs.io/), [COMMOT 0.0.3](https://commot.readthedocs.io/en/latest/installation.html), [SpatialDM](https://spatialdm.readthedocs.io/en/latest/install.html), [stLearn](https://stlearn.readthedocs.io/), [SpaTalk](https://github.com/ZJUFanLab/SpaTalk), and [Giotto tags](https://github.com/giotto-suite/Giotto/tags).
