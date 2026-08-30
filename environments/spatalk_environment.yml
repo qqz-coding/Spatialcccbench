@@ -1,0 +1,12 @@
+name: spatialccc-spatalk
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - r-base=4.2
+  - r-optparse
+  - r-tidyr
+  - r-remotes
+  - r-devtools
+  - r-biocmanager
+  - r-data.table

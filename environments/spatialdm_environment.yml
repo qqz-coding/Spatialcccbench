@@ -1,0 +1,18 @@
+name: spatialccc-spatialdm
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy=1.26.4
+  - scipy=1.11.4
+  - pandas=2.2
+  - scikit-learn=1.5
+  - tqdm
+  - psutil
+  - h5py
+  - pip:
+      - anndata==0.10.8
+      - scanpy==1.10.3
+      - spatialdm==0.2.0

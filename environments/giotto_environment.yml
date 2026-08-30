@@ -1,0 +1,15 @@
+name: spatialccc-giotto
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - r-base=4.2
+  - r-optparse
+  - r-data.table
+  - r-remotes
+  - r-devtools
+  - r-biocmanager
+  - r-reticulate
+  - python=3.9
+  - pip
+  - numpy=1.26.4

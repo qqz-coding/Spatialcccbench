@@ -1,0 +1,20 @@
+name: spatialccc-stlearn
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.8
+  - pip
+  - numpy=1.21.6
+  - scipy=1.7.3
+  - pandas=2.0.3
+  - scikit-learn=1.1.1
+  - tensorflow=2.4.1
+  - stlearn=0.4.12
+  - tqdm
+  - psutil
+  - h5py
+  - pip:
+      - anndata==0.9.2
+      - scanpy==1.9.8
+      - squidpy==1.2.3

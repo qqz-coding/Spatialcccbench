@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "tools": {
+    "squidpy": {
+      "display_name": "Squidpy ligand-receptor permutation test",
+      "status": "ready",
+      "runtime": "python",
+      "environment": "spatialccc-squidpy",
+      "environment_file": "environments/squidpy_environment.yml",
+      "runner": "tools/runners/run_squidpy.py",
+      "input_mode": "h5ad",
+      "output": "cellphoneDB/result.csv",
+      "aliases": ["cellphonedb"],
+      "default_args": []
+    },
+    "baseline_1": {
+      "display_name": "Baseline 1",
+      "status": "ready",
+      "runtime": "python",
+      "environment": "spatialccc-squidpy",
+      "environment_file": "environments/squidpy_environment.yml",
+      "runner": "tools/runners/run_baseline_1.py",
+      "input_mode": "h5ad",
+      "output": "baseline_1/result.csv",
+      "aliases": ["baseline1"],
+      "default_args": []
+    },
+    "baseline_2": {
+      "display_name": "Baseline 2",
+      "status": "ready",
+      "runtime": "python",
+      "environment": "spatialccc-squidpy",
+      "environment_file": "environments/squidpy_environment.yml",
+      "runner": "tools/runners/run_baseline_2.py",
+      "input_mode": "h5ad",
+      "output": "baseline_2/result.csv",
+      "aliases": ["baseline2"],
+      "default_args": []
+    },
+    "commot": {
+      "display_name": "COMMOT",
+      "status": "ready",
+      "runtime": "python",
+      "environment": "spatialccc-commot",
+      "environment_file": "environments/commot_environment.yml",
+      "runner": "tools/runners/run_commot.py",
+      "input_mode": "h5ad",
+      "output": "COMMOT/result.h5ad",
+      "aliases": [],
+      "default_args": []
+    },
+    "spatialdm": {
+      "display_name": "SpatialDM",
+      "status": "ready",
+      "runtime": "python",
+      "environment": "spatialccc-spatialdm",
+      "environment_file": "environments/spatialdm_environment.yml",
+      "runner": "tools/runners/run_spatialdm.py",
+      "input_mode": "h5ad",
+      "output": "spatialDM/result.csv",
+      "aliases": [],
+      "default_args": []
+    },
+    "stlearn": {
+      "display_name": "stLearn with spot mixtures",
+      "status": "ready",
+      "runtime": "python",
+      "environment": "spatialccc-stlearn",
+      "environment_file": "environments/stlearn_environment.yml",
+      "runner": "tools/runners/run_stlearn.py",
+      "input_mode": "h5ad",
+      "output": "stlearn/result.h5ad",
+      "aliases": [],
+      "default_args": [],
+      "platform_note": "The recorded stLearn 0.4.12 and TensorFlow 2.4.1 stack is a Linux-era environment. Linux or WSL is recommended; native Windows solving can be slow or unavailable."
+    },
+    "stlearn_without_spotmixture": {
+      "display_name": "stLearn without spot mixtures",
+      "status": "ready",
+      "runtime": "python",
+      "environment": "spatialccc-stlearn",
+      "environment_file": "environments/stlearn_environment.yml",
+      "runner": "tools/runners/run_stlearn_without_spotmixture.py",
+      "input_mode": "h5ad",
+      "output": "stlearn/result_without_mixture.h5ad",
+      "aliases": ["stlearn_no_mixture", "stlearn*"],
+      "default_args": [],
+      "platform_note": "The recorded stLearn 0.4.12 and TensorFlow 2.4.1 stack is a Linux-era environment. Linux or WSL is recommended; native Windows solving can be slow or unavailable."
+    },
+    "spatalk": {
+      "display_name": "SpaTalk",
+      "status": "legacy",
+      "runtime": "r",
+      "environment": "spatialccc-spatalk",
+      "environment_file": "environments/spatalk_environment.yml",
+      "runner": "tools/runners/run_spatalk.R",
+      "input_mode": "csv_pair",
+      "output": "spatalk/result.csv",
+      "aliases": [],
+      "default_args": [],
+      "post_install": ["environments/install_r_packages.R", "spatalk"]
+    },
+    "giotto": {
+      "display_name": "Giotto 3.x legacy API",
+      "status": "legacy",
+      "runtime": "r",
+      "environment": "spatialccc-giotto",
+      "environment_file": "environments/giotto_environment.yml",
+      "runner": "tools/runners/run_giotto.R",
+      "input_mode": "csv_pair",
+      "output": "giotto/result.csv",
+      "aliases": [],
+      "default_args": [],
+      "post_install": ["environments/install_r_packages.R", "giotto"]
+    },
+    "cellagentchat": {
+      "display_name": "CellAgentChat",
+      "status": "unavailable",
+      "runtime": "external",
+      "environment": null,
+      "environment_file": null,
+      "runner": null,
+      "input_mode": "external",
+      "output": "cellagentchat/result.csv",
+      "aliases": [],
+      "default_args": [],
+      "reason": "Every archived run_CellAgentChat.py is an empty 0-byte file; upstream execution source was not present in the deposited material. Existing benchmark result.csv files remain supported by toolkit.preprocess."
+    }
+  }
+}

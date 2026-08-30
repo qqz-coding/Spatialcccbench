@@ -7,4 +7,4 @@ The root `tutorial.ipynb` is the concise entry point. Reusable tutorial code is 
 - `redraw_noise_robustness.py`: redraw Figure4 from processed noise metrics.
 - `redraw_boundary_adaptation.py`: redraw Figure3 from existing perturbation results.
 
-The scripts require local data paths and never launch the upstream CCC tools implicitly.
+The Figure and evaluation scripts require local data paths and never launch upstream CCC tools implicitly. Explicit environment installation and upstream execution are handled separately by `tools/run.py`; see `tools/README.md` and `tools/tutorial.ipynb`.

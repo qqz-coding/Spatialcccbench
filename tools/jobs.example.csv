@@ -1,0 +1,4 @@
+tool,dataset,adata,lr_db,count_csv,meta_csv,output_root
+squidpy,st_lymphnode,data/st_lymphnode.h5ad,data/cellchatDB_human.csv,,,result
+commot,st_lymphnode,data/st_lymphnode.h5ad,data/cellchatDB_human.csv,,,result
+stlearn,st_lymphnode,data/st_lymphnode.h5ad,data/cellchatDB_human.csv,,,result

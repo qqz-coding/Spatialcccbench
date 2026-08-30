@@ -1,0 +1,19 @@
+name: spatialccc-squidpy
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy=1.26.4
+  - scipy=1.11.4
+  - pandas=2.2
+  - scikit-learn=1.5
+  - tqdm
+  - psutil
+  - h5py
+  - setuptools<81
+  - pip:
+      - anndata==0.10.9
+      - scanpy==1.10.0
+      - squidpy==1.2.2

@@ -1,0 +1,18 @@
+name: spatialccc-commot
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy=1.26.4
+  - scipy=1.13.1
+  - pandas=2.2
+  - scikit-learn=1.5
+  - tqdm
+  - psutil
+  - h5py
+  - pip:
+      - anndata==0.11.3
+      - scanpy==1.11.0
+      - commot==0.0.3

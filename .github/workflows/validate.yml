@@ -13,3 +13,6 @@ jobs:
         with:
           python-version: "3.11"
       - run: python scripts/validate_repository.py
+      - run: python -m compileall -q tools
+      - run: python tools/run.py list
+      - run: python tools/run.py doctor
