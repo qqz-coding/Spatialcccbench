@@ -18,6 +18,12 @@ import scipy.stats as stats
 FIGURE_DIR = Path(os.environ.get("SPATIALCCCBENCH_OUTPUT_DIR", "figure"))
 
 
+def _save_figure(fig, stem):
+    os.makedirs(FIGURE_DIR, exist_ok=True)
+    fig.savefig(FIGURE_DIR / f"{stem}.png", dpi=300, bbox_inches="tight")
+    fig.savefig(FIGURE_DIR / f"{stem}.svg", dpi=300, bbox_inches="tight")
+
+
 def _use_arial_font():
     plt.rcParams.update({
         "font.family": "sans-serif",
@@ -124,9 +130,7 @@ def analysis_edge_adoption_dropout(tool,all_result):
     plt.grid(True, linestyle='--', alpha=0.7)
 
     plt.tight_layout()
-    os.makedirs(FIGURE_DIR, exist_ok=True)
-    plt.savefig(f'{FIGURE_DIR}/{tool}_edge_dropout_plot.png', dpi=300, bbox_inches='tight')
-    plt.show()
+    _save_figure(plt.gcf(), f"{tool}_edge_dropout_plot")
 
     return result_noise_dict
 
@@ -166,9 +170,7 @@ def analysis_edge_adoption_equal(tool,all_result):
              verticalalignment='top')
 
     plt.tight_layout()  # 自动调整布局
-    os.makedirs(FIGURE_DIR, exist_ok=True)
-    plt.savefig(f'{FIGURE_DIR}/{tool}_edge_equalization_plot.png', dpi=300, bbox_inches='tight')
-    plt.show()
+    _save_figure(plt.gcf(), f"{tool}_edge_equalization_plot")
 
 def analysis_edge_adoption_gradient_change(tool,all_result):
     _use_arial_font()
@@ -207,9 +209,7 @@ def analysis_edge_adoption_gradient_change(tool,all_result):
              verticalalignment='top')
 
     plt.tight_layout()  # 自动调整布局
-    os.makedirs(FIGURE_DIR, exist_ok=True)
-    plt.savefig(f'{FIGURE_DIR}/{tool}_gradient_change_plot.png', dpi=300, bbox_inches='tight')
-    plt.show()
+    _save_figure(plt.gcf(), f"{tool}_gradient_change_plot")
 
 def deep_analysis(all_result,tool,analysis_target="DLPFC_REVERS"):
     _use_arial_font()
@@ -284,9 +284,7 @@ def deep_analysis(all_result,tool,analysis_target="DLPFC_REVERS"):
             verticalalignment='top', bbox=dict(boxstyle='round', facecolor='lightcyan', alpha=0.8))
 
     plt.tight_layout()
-    os.makedirs(FIGURE_DIR, exist_ok=True)
-    plt.savefig(f'{FIGURE_DIR}/{tool}_comparison_{analysis_target}.png', dpi=300, bbox_inches='tight')
-    plt.show()
+    _save_figure(fig, f"{tool}_comparison_{analysis_target}")
 
     fig, (ax3, ax4) = plt.subplots(1, 2, figsize=(15, 6))
 
@@ -297,9 +295,7 @@ def deep_analysis(all_result,tool,analysis_target="DLPFC_REVERS"):
     ax4.set_title(f'{tool} - Data Normality Q-Q Plot\n({analysis_target})', fontweight='bold')
 
     plt.tight_layout()
-    os.makedirs(FIGURE_DIR, exist_ok=True)
-    plt.savefig(f'{FIGURE_DIR}/{tool}_normality_qq_{analysis_target}.png', dpi=300, bbox_inches='tight')
-    plt.show()
+    _save_figure(plt.gcf(), f"{tool}_normality_qq_{analysis_target}")
 
     if ks_pvalue > 0.05:
         print("Distribution dont exist difference (p > 0.05)")

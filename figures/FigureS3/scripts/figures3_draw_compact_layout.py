@@ -136,21 +136,23 @@ def ensure_dirs() -> None:
 
 
 def make_readable_h5ad(path: Path) -> Path:
-    try:
-        adata = sc.read_h5ad(path, backed="r")
-        adata.file.close()
-        return path
-    except Exception as exc:
-        if "encoding_type='null'" not in str(exc) and "encoding-type='null'" not in str(exc):
-            raise
+    with h5py.File(path, "r") as h5:
+        log1p_base = h5.get("uns/log1p/base")
+        encoding_type = "" if log1p_base is None else log1p_base.attrs.get("encoding-type", "")
+        if isinstance(encoding_type, bytes):
+            encoding_type = encoding_type.decode("utf-8", errors="replace")
+        has_legacy_null = str(encoding_type).lower() == "null"
 
-    fixed_path = CACHE_DIR / path.name
-    if not fixed_path.exists() or fixed_path.stat().st_mtime < path.stat().st_mtime:
-        shutil.copy2(path, fixed_path)
-        with h5py.File(fixed_path, "r+") as h5:
-            if "uns/log1p/base" in h5:
-                del h5["uns/log1p/base"]
-    return fixed_path
+    if has_legacy_null:
+        fixed_path = CACHE_DIR / path.name
+        if not fixed_path.exists() or fixed_path.stat().st_mtime < path.stat().st_mtime:
+            shutil.copy2(path, fixed_path)
+            with h5py.File(fixed_path, "r+") as h5:
+                if "uns/log1p/base" in h5:
+                    del h5["uns/log1p/base"]
+        return fixed_path
+
+    return path
 
 
 def numeric_obs(adata: sc.AnnData, col: str) -> np.ndarray:
@@ -355,8 +357,8 @@ def build_dataset_panels(config: dict[str, object]) -> tuple[list[list[dict[str,
     lr_pair = str(config["lr_pair"])
     spot_size = float(config["spot_size"])
 
-    gene_adata = sc.read_h5ad(make_readable_h5ad(Path(config["gene_adata"])))
-    lr_adata = sc.read_h5ad(make_readable_h5ad(Path(config["lr_adata"])))
+    gene_adata = sc.read_h5ad(make_readable_h5ad(Path(config["gene_adata"])), backed="r")
+    lr_adata = sc.read_h5ad(make_readable_h5ad(Path(config["lr_adata"])), backed="r")
     check_columns(gene_adata, lr_adata, ligand, receptor, lr_pair)
     ligand_geary_log = ensure_geary_log(gene_adata, ligand)
     receptor_geary_log = ensure_geary_log(gene_adata, receptor)
@@ -529,7 +531,7 @@ def save_individual_panels(config: dict[str, object], rows: list[list[dict[str, 
                     "lr_pair": lr_pair,
                     "panel_index": idx,
                     "panel_type": spec["description"],
-                    "output_path": str(output_path),
+                    "output_path": output_path.relative_to(OUT_DIR).as_posix(),
                 }
             )
             idx += 1

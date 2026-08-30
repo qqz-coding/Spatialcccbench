@@ -18,6 +18,14 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
+def file_record(path: Path, root: Path) -> dict[str, object]:
+    return {
+        "path": path.relative_to(root).as_posix(),
+        "bytes": path.stat().st_size,
+        "sha256": sha256(path),
+    }
+
+
 def run_figure(figure_dir: Path) -> None:
     config = json.loads((figure_dir / "figure_config.json").read_text(encoding="utf-8"))
     parser = argparse.ArgumentParser(description=config["caption"])
@@ -46,6 +54,7 @@ def run_figure(figure_dir: Path) -> None:
         env["SPATIALCCCBENCH_SUMMARY_CSV"] = str(summary)
 
     commands = config.get("steps", [])
+    executed_steps = []
     if args.reproduce:
         selected = commands
         if args.step:
@@ -54,6 +63,7 @@ def run_figure(figure_dir: Path) -> None:
                 raise ValueError(f"Invalid --step values {invalid}; available range is 1-{len(commands)}")
             selected = [commands[n - 1] for n in args.step]
         for step in selected:
+            executed_steps.append(step["name"])
             step_args = [str(part).replace("{output}", str(generated_dir)) for part in step.get("args", [])]
             command = [args.python, str(figure_dir / step["script"]), *step_args]
             print("Running:", subprocess.list2cmdline(command), flush=True)
@@ -62,16 +72,30 @@ def run_figure(figure_dir: Path) -> None:
         print(f"{config['figure']}: reference/result files are already prepared; use --reproduce to redraw.")
 
     published = figure_dir / config["published_result"]
+    manifest_excludes = set(config.get("generated_manifest_exclude", []))
+    generated_files = sorted(
+        path
+        for path in generated_dir.rglob("*")
+        if path.is_file()
+        and path.suffix.lower() in {".svg", ".csv", ".json"}
+        and not manifest_excludes.intersection(path.relative_to(generated_dir).parts)
+    )
     manifest = {
         "figure": config["figure"],
         "status": config["status"],
         "caption": config["caption"],
         "updated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
-        "published_result": str(published),
+        "published_result": published.relative_to(repo_root).as_posix(),
         "published_result_sha256": sha256(published) if published.exists() else None,
-        "data_root": str(data_root),
+        "data_root": (
+            data_root.relative_to(repo_root).as_posix()
+            if data_root.is_relative_to(repo_root)
+            else "external-local-data"
+        ),
         "redraw_requested": args.reproduce,
         "steps": [step["name"] for step in commands],
+        "executed_steps": executed_steps,
+        "generated_files": [file_record(path, repo_root) for path in generated_files],
         "notes": config["notes"],
     }
     (figure_dir / "results" / "result_manifest.json").write_text(

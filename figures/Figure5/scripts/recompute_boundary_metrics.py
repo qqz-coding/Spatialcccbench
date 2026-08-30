@@ -26,8 +26,20 @@ LEVELS = [
     "DLPFC_down_06",
     "DLPFC_down_08",
 ]
-DEFAULT_TOOLS = ["stLearn", "stLearn_without_spotmixture"]
+DEFAULT_TOOLS = [
+    "Squidpy",
+    "Baseline_1",
+    "Baseline_2",
+    "COMMOT",
+    "stLearn",
+    "stLearn_without_spotmixture",
+    "SpatialDM",
+    "CellAgentChat",
+    "SpaTalk",
+    "Giotto",
+]
 DISPLAY_NAMES = {"stLearn_without_spotmixture": "stLearn*"}
+DEFAULT_COUNTS = REPO_ROOT / "figures" / "Figure3" / "inputs" / "boundary_ligand_counts.csv"
 
 
 @contextmanager
@@ -61,7 +73,7 @@ def shared_ks(original: pd.Series, perturbed: pd.Series) -> float:
     return float(ks_2samp(original_shared, perturbed_shared).statistic)
 
 
-def calculate_metrics(data_root: Path, tools: list[str]) -> pd.DataFrame:
+def raw_ligand_counts(data_root: Path, tools: list[str]) -> dict[str, dict[str, pd.Series]]:
     with working_directory(data_root):
         extracted = {
             level: extract_result(
@@ -72,10 +84,32 @@ def calculate_metrics(data_root: Path, tools: list[str]) -> pd.DataFrame:
             for level in LEVELS
         }
 
+    return {
+        level: {tool: ligand_counts(extracted[level][tool]) for tool in tools}
+        for level in LEVELS
+    }
+
+
+def compact_ligand_counts(path: Path, tools: list[str]) -> dict[str, dict[str, pd.Series]]:
+    table = pd.read_csv(path)
+    required = {"scenario", "tool", "ligand", "count"}
+    missing = required.difference(table.columns)
+    if missing:
+        raise ValueError(f"{path} is missing columns: {sorted(missing)}")
+    result: dict[str, dict[str, pd.Series]] = {}
+    for level in LEVELS:
+        result[level] = {}
+        for tool in tools:
+            subset = table[(table["scenario"] == level) & (table["tool"] == tool)]
+            result[level][tool] = subset.set_index("ligand")["count"].astype(float)
+    return result
+
+
+def calculate_metrics(counts_by_level: dict[str, dict[str, pd.Series]], tools: list[str]) -> pd.DataFrame:
     rows = []
     for tool in tools:
         counts = {
-            level: ligand_counts(extracted[level][tool])
+            level: counts_by_level[level][tool]
             for level in LEVELS
         }
         rows.append(
@@ -108,15 +142,25 @@ def main() -> None:
     )
     parser.add_argument("--data-root", type=Path, default=REPO_ROOT)
     parser.add_argument("--tools", nargs="+", default=DEFAULT_TOOLS)
+    parser.add_argument("--counts-csv", type=Path, default=DEFAULT_COUNTS)
+    parser.add_argument(
+        "--raw-results",
+        action="store_true",
+        help="Extract the full local result tree instead of using the compact latest-result table.",
+    )
     parser.add_argument(
         "--output",
         type=Path,
-        default=REPO_ROOT / "figures" / "Figure5" / "inputs" / "boundary_metrics_stlearn.csv",
+        default=REPO_ROOT / "figures" / "Figure5" / "inputs" / "boundary_metrics_recomputed.csv",
     )
     parser.add_argument("--update-summary", type=Path)
     args = parser.parse_args()
 
-    metrics = calculate_metrics(args.data_root.resolve(), args.tools)
+    if args.raw_results:
+        counts_by_level = raw_ligand_counts(args.data_root.resolve(), args.tools)
+    else:
+        counts_by_level = compact_ligand_counts(args.counts_csv.resolve(), args.tools)
+    metrics = calculate_metrics(counts_by_level, args.tools)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     metrics.to_csv(args.output)
     if args.update_summary:

@@ -1,0 +1,17 @@
+{
+  "inputs": {
+    "Method_1": "data/figure1a_reproduce_full/tables/df_all_from_result_l_1_full_result_r_1_full.csv",
+    "Method_2": "data/figure1b_reproduce_full/tables/df_all_from_result_auto_corr_2.csv"
+  },
+  "outputs": "figures/Figure2/results/generated/figures",
+  "cdf_method": "KDE-smoothed count CDF",
+  "included_columns": [
+    "gradient_count",
+    "edge_count",
+    "normal_count"
+  ],
+  "excluded_columns": [
+    "weak_count"
+  ],
+  "reason": "Only the three spatially autocorrelated interaction classes are drawn."
+}

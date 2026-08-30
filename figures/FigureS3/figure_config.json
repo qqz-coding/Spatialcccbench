@@ -2,13 +2,24 @@
   "figure": "FigureS3",
   "caption": "Spatial autocorrelation examples in DLPFC and mouse brain data.",
   "status": "precomputed_h5ad_redraw",
-  "notes": "Reads existing DLPFC/MF h5ad objects; no Moran/Geary recalculation.",
+  "notes": "Reads the latest existing DLPFC/MF h5ad objects; no Moran/Geary recalculation. A source manifest verifies that the cached script panels postdate those inputs. The final redraw is emitted as two separate 3-column by 4-row SVGs with receptor/ligand metrics on the left and interaction panels on the right; panel letters are omitted.",
+  "inputs": [
+    "inputs/h5ad_panel_source_manifest.csv",
+    "inputs/h5ad_panel_source_manifest.json"
+  ],
+  "generated_manifest_exclude": [
+    "individual_panels"
+  ],
   "published_result": "results/published/FigureS3.svg",
   "steps": [
     {
-      "name": "DLPFC/MF precomputed h5ad maps",
+      "name": "DLPFC/MF individual maps from precomputed h5ad",
       "script": "scripts/figures3_draw_bottom_legends_new_mf.py",
       "cwd": "data-root"
+    },
+    {
+      "name": "two separate 3x4 SVG layouts",
+      "script": "scripts/figures3_dlpfc_mf_two_3x4_svgs.py"
     }
   ],
   "published_files": [

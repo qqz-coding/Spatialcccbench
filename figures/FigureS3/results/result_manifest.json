@@ -1,0 +1,45 @@
+{
+  "figure": "FigureS3",
+  "status": "precomputed_h5ad_redraw",
+  "caption": "Spatial autocorrelation examples in DLPFC and mouse brain data.",
+  "updated_at": "2026-08-30T11:52:37+08:00",
+  "published_result": "figures/FigureS3/results/published/FigureS3.svg",
+  "published_result_sha256": "d678309ebf19f1e225d4e5830573f79b90a8092caabcd5d7a9596676faf6acb8",
+  "data_root": "external-local-data",
+  "redraw_requested": true,
+  "steps": [
+    "DLPFC/MF individual maps from precomputed h5ad",
+    "two separate 3x4 SVG layouts"
+  ],
+  "executed_steps": [
+    "two separate 3x4 SVG layouts"
+  ],
+  "generated_files": [
+    {
+      "path": "figures/FigureS3/results/generated/composites/DLPFC_SPP1_ITGB1_12_panels_3x4.svg",
+      "bytes": 43127108,
+      "sha256": "2af375ac562692c008ea56bad0a90c165ff222c302186db43ab892881f5fbf63"
+    },
+    {
+      "path": "figures/FigureS3/results/generated/composites/MF_Pnoc_Oprl1_12_panels_3x4.svg",
+      "bytes": 46990778,
+      "sha256": "20d9055ab0e56ce90106f493c18b8603a0ec906169eeb85a594fe4aaaf67d6af"
+    },
+    {
+      "path": "figures/FigureS3/results/generated/run_config.json",
+      "bytes": 442,
+      "sha256": "9ef845e8d824b5907df44014e82d764dfc12c66d39b35a76356f8969699b5e42"
+    },
+    {
+      "path": "figures/FigureS3/results/generated/tables/interaction_counts.csv",
+      "bytes": 1271,
+      "sha256": "bb8c290a637a3ad5b3ad96b275e04e9a95fa3e664403d31e25b1f9ead4d4e94a"
+    },
+    {
+      "path": "figures/FigureS3/results/generated/tables/panel_paths.csv",
+      "bytes": 2835,
+      "sha256": "44bf4e3a8c3e42948f0b3601c08ddcf954456b9555cc34af778a5a32f8b58556"
+    }
+  ],
+  "notes": "Reads the latest existing DLPFC/MF h5ad objects; no Moran/Geary recalculation. A source manifest verifies that the cached script panels postdate those inputs. The final redraw is emitted as two separate 3-column by 4-row SVGs with receptor/ligand metrics on the left and interaction panels on the right; panel letters are omitted."
+}

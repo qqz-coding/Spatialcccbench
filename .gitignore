@@ -217,9 +217,15 @@ example/dataset/noise/*.h5ad
 example/dataset/st_lymphnode/*.h5ad
 Manuscript_Figure/figure/Auto_correlation/*.h5ad
 
-# Canonical Figure redraw outputs
-figures/**/results/generated/
-figures/**/results/result_manifest.json
+# Canonical Figure redraw outputs. Keep compact SVG/CSV/JSON provenance in Git;
+# raster and PDF derivatives remain local.
+figures/**/results/generated/**/*.png
+figures/**/results/generated/**/*.pdf
+# FigureS3 final deliverables are the two standalone 3x4 composites. The 24
+# individual SVG panels and legacy combined composites are reproducible caches.
+figures/FigureS3/results/generated/individual_panels/
+figures/FigureS3/results/generated/composites/*_12_panels_bottom.svg
+figures/FigureS3/results/generated/composites/FigureS3_like_24_bottom_legends_new_mf.svg
 figures/**/h5ad_readable_cache/
 figures/**/scripts/__pycache__/
 figures/**/results/**/*.png

@@ -2,11 +2,15 @@
 # Submission figure: Figure3
 # Role: Figure 3A-C boundary adaptation rerun
 
+import argparse
+from pathlib import Path
+
 import matplotlib
 
 matplotlib.use("Agg")
 
 import matplotlib.pyplot as plt
+import pandas as pd
 
 from figure3_boundary_adaptation_helpers import (
     analysis_edge_adoption_dropout,
@@ -40,16 +44,49 @@ LEVEL_LIST = [
     "DLPFC_down_08",
 ]
 
+DEFAULT_COUNTS = Path(__file__).resolve().parents[1] / "inputs" / "boundary_ligand_counts.csv"
 
-def main():
+
+def load_compact_counts(path: Path):
+    counts = pd.read_csv(path)
+    required = {"scenario", "tool", "ligand", "count"}
+    missing = required.difference(counts.columns)
+    if missing:
+        raise ValueError(f"{path} is missing columns: {sorted(missing)}")
+
     all_result = {}
     for level in LEVEL_LIST:
-        print(f"Loading {level}...")
-        all_result[level] = extract_result(
-            TOOL_LIST,
-            level,
-            spot_info="./dataset/DLPFC_cell_info.csv",
-        )
+        all_result[level] = {}
+        for tool in TOOL_LIST:
+            subset = counts[(counts["scenario"] == level) & (counts["tool"] == tool)]
+            repeated = subset.loc[subset.index.repeat(subset["count"].astype(int))]
+            all_result[level][tool] = pd.DataFrame(
+                {
+                    "LR_pairs": repeated["ligand"].astype(str).map(lambda ligand: f"{ligand}_R").to_numpy(),
+                    "cell_pairs": "",
+                }
+            )
+    return all_result
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--counts-csv", type=Path, default=DEFAULT_COUNTS)
+    parser.add_argument("--raw-results", action="store_true")
+    args = parser.parse_args()
+
+    if args.counts_csv.exists() and not args.raw_results:
+        print(f"Loading compact latest-result counts: {args.counts_csv}")
+        all_result = load_compact_counts(args.counts_csv)
+    else:
+        all_result = {}
+        for level in LEVEL_LIST:
+            print(f"Loading raw results for {level}...")
+            all_result[level] = extract_result(
+                TOOL_LIST,
+                level,
+                spot_info="./dataset/DLPFC_cell_info.csv",
+            )
 
     for tool in TOOL_LIST:
         print(f"Plotting dropout: {tool}")

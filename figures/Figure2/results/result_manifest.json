@@ -1,0 +1,43 @@
+{
+  "figure": "Figure2",
+  "status": "precomputed_autocorrelation_redraw",
+  "caption": "Spatial autocorrelation analysis of CCC analysis tools.",
+  "updated_at": "2026-08-30T11:52:29+08:00",
+  "published_result": "figures/Figure2/results/published/Figure2.svg",
+  "published_result_sha256": "0d2ab8886f773910120ba699e375610b4edeadaec03dcd3ab1c7a417556b406f",
+  "data_root": "data",
+  "redraw_requested": true,
+  "steps": [
+    "local Moran/Geary maps",
+    "CDF curves",
+    "representative interaction maps",
+    "Method 1 distributions",
+    "Method 2 distributions"
+  ],
+  "executed_steps": [
+    "CDF curves"
+  ],
+  "generated_files": [
+    {
+      "path": "figures/Figure2/results/generated/figures/Method_1_CDF_three_spatial_autocorr_types.svg",
+      "bytes": 50789,
+      "sha256": "afe23159f85a3370ded5ceb6c3296052447be19e4bcb6e6eb112168058f9ff67"
+    },
+    {
+      "path": "figures/Figure2/results/generated/figures/Method_2_CDF_three_spatial_autocorr_types.svg",
+      "bytes": 51919,
+      "sha256": "fe32542add5f10fca5b24a45baffa4ac767f895fa127cb8931ce4b66f9691a74"
+    },
+    {
+      "path": "figures/Figure2/results/generated/run_config.json",
+      "bytes": 549,
+      "sha256": "0e5519fe9c6b5343166a0ae76843bad77429cea32ba65e001b0c7bac5fba58a5"
+    },
+    {
+      "path": "figures/Figure2/results/generated/tables/three_spatial_autocorr_cdf_summary.csv",
+      "bytes": 669,
+      "sha256": "7f2d57b3c2c48cf5b089af6d050ac3c15a60662ae67fe17ce7859131ceb6444a"
+    }
+  ],
+  "notes": "Reads existing local Moran/Geary arrays and existing tool results; no autocorrelation calculation."
+}

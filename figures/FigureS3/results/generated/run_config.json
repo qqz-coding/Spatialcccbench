@@ -1,0 +1,16 @@
+{
+  "layout": "Two stacked panels. Within each panel, columns 1-2 are expression/local Geary/local Moran and columns 3-4 are per-gene/LR-integrated interactions.",
+  "row_order": [
+    "random-like / normal",
+    "homogeneous / gradient",
+    "heterogeneous / edge"
+  ],
+  "DLPFC": "SPP1-ITGB1 only",
+  "MF": "Pnoc-Oprl1 only",
+  "spot_size": {
+    "DLPFC": 1.5,
+    "MF": 0.3
+  },
+  "font": "Arial",
+  "svg_fonttype": "none"
+}

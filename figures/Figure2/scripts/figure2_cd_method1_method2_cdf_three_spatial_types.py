@@ -83,6 +83,13 @@ def savefig(fig: plt.Figure, stem: str) -> None:
         fig.savefig(FIG_DIR / f"{stem}.{ext}", dpi=300, bbox_inches="tight")
 
 
+def portable_path(path: Path) -> str:
+    try:
+        return path.relative_to(REPO_ROOT).as_posix()
+    except ValueError:
+        return path.name
+
+
 def plot_cdf(df_all: pd.DataFrame, method_label: str) -> pd.DataFrame:
     plt.style.use("seaborn-v0_8-whitegrid")
     plt.rcParams["figure.facecolor"] = "white"
@@ -148,8 +155,8 @@ def run() -> None:
     (OUT_DIR / "run_config.json").write_text(
         json.dumps(
             {
-                "inputs": {method: str(path) for method, path in INPUTS.items()},
-                "outputs": str(FIG_DIR),
+                "inputs": {method: portable_path(path) for method, path in INPUTS.items()},
+                "outputs": portable_path(FIG_DIR),
                 "cdf_method": "KDE-smoothed count CDF",
                 "included_columns": COUNT_COLUMNS,
                 "excluded_columns": ["weak_count"],

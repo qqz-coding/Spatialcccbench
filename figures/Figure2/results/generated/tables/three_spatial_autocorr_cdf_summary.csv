@@ -1,0 +1,7 @@
+method,count_column,label,color,lr_pairs,nonzero_lr_pairs,zero_lr_pairs,min,max,total_spot_count,included_in_cdf
+Method_1,gradient_count,Homogeneous interaction,pink,1492,1385,107,0.0,3137.0,2103605.0,True
+Method_1,edge_count,Heterogenous interaction,red,1492,1471,21,0.0,833.0,469066.0,True
+Method_1,normal_count,Random-like interaction,lightblue,1492,1332,160,0.0,2943.0,1203261.0,True
+Method_2,gradient_count,Homogeneous interaction,pink,2323,2251,72,0.0,4008.0,4212524.0,True
+Method_2,edge_count,Heterogenous interaction,red,2323,2160,163,0.0,743.0,254730.0,True
+Method_2,normal_count,Random-like interaction,lightblue,2323,1781,542,0.0,1826.0,974078.0,True

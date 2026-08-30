@@ -1,0 +1,34 @@
+{
+  "figure": "Figure5",
+  "status": "computational_figure5a_manual_figure5b_assembly",
+  "caption": "Overview of the evaluation framework and guidelines for users.",
+  "updated_at": "2026-08-30T11:45:41+08:00",
+  "published_result": "figures/Figure5/results/published/Figure5.svg",
+  "published_result_sha256": "1c7e0bd4e910588d764801e263c19943c10cb4525c8be616bf8eb5e38f0d3cff",
+  "data_root": "data",
+  "redraw_requested": true,
+  "steps": [
+    "evaluation summary SVGs"
+  ],
+  "executed_steps": [
+    "evaluation summary SVGs"
+  ],
+  "generated_files": [
+    {
+      "path": "figures/Figure5/results/generated/bar_noise_sum.svg",
+      "bytes": 99481,
+      "sha256": "1bd3ac124bee88bcc442bdc1cbba734e98919be50d9f950990260357dad8eb68"
+    },
+    {
+      "path": "figures/Figure5/results/generated/bar_summary.svg",
+      "bytes": 98856,
+      "sha256": "c7615d34a5864ef61fb4f09026f2dde94b4a75048c79905e9ab4094c7360061a"
+    },
+    {
+      "path": "figures/Figure5/results/generated/dot_sum.svg",
+      "bytes": 81915,
+      "sha256": "32edcb6aebc771c0e632fc95a9cfa773715a99e0c66f77d4f80f2c6cb3780088"
+    }
+  ],
+  "notes": "Evaluation summary is reproducible; decision framework remains reference-only. Noise updates modify only six noise F1 columns, while boundary metrics are refreshed separately from the latest Figure3 results. Plot geometry and row order follow Figure5(summary).ipynb."
+}

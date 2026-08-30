@@ -1,0 +1,26 @@
+{
+  "generated_from": "external-local-data",
+  "rows": 18147,
+  "scenarios": [
+    "DLPFC",
+    "DLPFC_equal",
+    "DLPFC_REVERS",
+    "DLPFC_down_02",
+    "DLPFC_down_04",
+    "DLPFC_down_06",
+    "DLPFC_down_08"
+  ],
+  "tools": [
+    "Squidpy",
+    "Baseline_1",
+    "Baseline_2",
+    "COMMOT",
+    "stLearn",
+    "stLearn_without_spotmixture",
+    "SpatialDM",
+    "CellAgentChat",
+    "SpaTalk",
+    "Giotto"
+  ],
+  "output_sha256": "1aa71a883b47bbd9d4286bb0e25f0e7d4eb3917c9e374fa8d54d714299cd38f1"
+}

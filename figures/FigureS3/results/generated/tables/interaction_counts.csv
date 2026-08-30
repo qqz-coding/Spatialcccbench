@@ -1,0 +1,13 @@
+dataset,lr_pair,panel_type,mode,ligand_count,receptor_count,interaction_count,other_count,moran_positive_count,geary_count,positive_moran_only_count,geary_only_count
+DLPFC,SPP1_ITGB1,per_gene_interaction,Random-like / normal,263.0,232.0,27,3753,,,,
+DLPFC,SPP1_ITGB1,per_gene_interaction,Homogeneous / gradient,2471.0,2154.0,1425,1021,,,,
+DLPFC,SPP1_ITGB1,per_gene_interaction,Heterogeneous / edge,292.0,250.0,35,3714,,,,
+DLPFC,SPP1_ITGB1,lr_integrated_interaction,"Gearys=(0.5,1.5)",,,342,529,2508.0,1526.0,2166.0,1184.0
+DLPFC,SPP1_ITGB1,lr_integrated_interaction,"Gearys=(0,0.5]",,,1915,1557,2508.0,2071.0,593.0,156.0
+DLPFC,SPP1_ITGB1,lr_integrated_interaction,"Gearys=[1.5,+inf)",,,251,1340,2508.0,624.0,2257.0,373.0
+MF,Pnoc_Oprl1,per_gene_interaction,Random-like / normal,2412.0,1989.0,801,2585,,,,
+MF,Pnoc_Oprl1,per_gene_interaction,Homogeneous / gradient,1072.0,2053.0,362,3422,,,,
+MF,Pnoc_Oprl1,per_gene_interaction,Heterogeneous / edge,386.0,253.0,12,5558,,,,
+MF,Pnoc_Oprl1,lr_integrated_interaction,"Gearys=(0.5,1.5)",,,1868,525,3395.0,4133.0,1527.0,2265.0
+MF,Pnoc_Oprl1,lr_integrated_interaction,"Gearys=(0,0.5]",,,1226,2565,3395.0,1451.0,2169.0,225.0
+MF,Pnoc_Oprl1,lr_integrated_interaction,"Gearys=[1.5,+inf)",,,301,2490,3395.0,601.0,3094.0,300.0

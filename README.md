@@ -10,7 +10,8 @@ python scripts/validate_repository.py
 
 - [tutorial.ipynb](tutorial.ipynb): concise tutorial with Markdown guidance and executable entry points.
 - [figures_index.csv](figures_index.csv): one-to-one Figure, shortcut, notebook, and result mapping.
-- [figures/](figures/): Figure1-5 and FigureS1-S9, each with `run.py`, a demo notebook, and `results/published/`.
+- [figures/](figures/): Figure1-5 and FigureS1-S9, each with `run.py`, a concise demo notebook, and `results/published/`.
+- [results_manifest.csv](results_manifest.csv): SHA-256 inventory of bundled Figure inputs, submitted SVGs, and current script-generated results.
 - [tutorials/scripts/](tutorials/scripts/): extracted tutorial workflows.
 - [toolkit/](toolkit/): reusable result harmonization, metrics, plotting, and analysis modules.
 - [environments/](environments/): tool-specific Conda definitions.
@@ -35,6 +36,6 @@ Spatial-autocorrelation Figure scripts read precomputed h5ad/CSV arrays. They do
 
 ## Repository boundary
 
-The canonical, one-to-one Figure organization is under `figures/`; full local result trees and generated caches are excluded by `.gitignore`. The stLearn DLPFC h5ad inputs required to audit Figure3/Figure5 boundary adaptation are explicitly versioned under `result/` with Git LFS.
+The canonical, one-to-one Figure organization is under `figures/`; full local result trees and generated raster caches are excluded by `.gitignore`. Compact SVG/CSV/JSON redraw outputs are versioned. The stLearn DLPFC h5ad inputs required to audit Figure3/Figure5 boundary adaptation are explicitly versioned under `result/` with Git LFS.
 
-The submitted SVG is stored as `results/published/<Figure>.svg`. Computational redraws are written to `results/generated/` and remain separate from the submitted final layout, especially where the final figure contains manual assembly.
+The submitted SVG is stored as `results/published/<Figure>.svg`. Computational redraws are written to `results/generated/` and remain separate from the submitted final layout, especially where the final figure contains manual assembly. Figure3 ships a compact ligand-count table exported from the latest raw tool results, so its panels can be redrawn without cloning the multi-gigabyte local result tree.

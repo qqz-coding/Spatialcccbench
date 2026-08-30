@@ -2,7 +2,11 @@
   "figure": "Figure3",
   "caption": "Spatial boundary adaptation under gradient change, edge equalization, and signal loss.",
   "status": "computational_panels_manual_final_assembly",
-  "notes": "Boundary perturbation panels are reproducible; final submitted layout is assembled separately.",
+  "notes": "Boundary panels use the compact ligand-count export derived from the latest local results; the submitted layout remains a separate manual assembly.",
+  "inputs": [
+    "inputs/boundary_ligand_counts.csv",
+    "inputs/boundary_ligand_counts.json"
+  ],
   "published_result": "results/published/Figure3.svg",
   "steps": [
     {

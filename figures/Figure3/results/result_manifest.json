@@ -1,0 +1,369 @@
+{
+  "figure": "Figure3",
+  "status": "computational_panels_manual_final_assembly",
+  "caption": "Spatial boundary adaptation under gradient change, edge equalization, and signal loss.",
+  "updated_at": "2026-08-30T11:46:57+08:00",
+  "published_result": "figures/Figure3/results/published/Figure3.svg",
+  "published_result_sha256": "3be6fa7e30aaa030d81e2a0207da76a7d7fa01c9fffbdda82df8c77da6b78395",
+  "data_root": "data",
+  "redraw_requested": true,
+  "steps": [
+    "boundary adaptation panels"
+  ],
+  "executed_steps": [
+    "boundary adaptation panels"
+  ],
+  "generated_files": [
+    {
+      "path": "figures/Figure3/results/generated/Baseline_1_comparison_DLPFC_equal.svg",
+      "bytes": 153549,
+      "sha256": "eb2e37795355981e402a6cdf3acc65c4085999cd365b59d12485e606d56788fd"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Baseline_1_comparison_DLPFC_REVERS.svg",
+      "bytes": 153835,
+      "sha256": "e5741e2e1fc361bb2c44fc895f327ee989099553c2c05d5c1bede813f8bdfff0"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Baseline_1_edge_dropout_plot.svg",
+      "bytes": 39831,
+      "sha256": "47c4808c232583ddda071c14c14b9b14b2f2321ff37d842d7777d0b5297f69ae"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Baseline_1_edge_equalization_plot.svg",
+      "bytes": 81117,
+      "sha256": "76d86f240ecc3915829f4914ff46ff2d2df2dd4a5179d10db471ca46f4afacf7"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Baseline_1_gradient_change_plot.svg",
+      "bytes": 81271,
+      "sha256": "847cec77b78ae003e2e0d5bd152b62e852059ee3eff85fa40c8932e583d46d48"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Baseline_1_normality_qq_DLPFC_equal.svg",
+      "bytes": 93430,
+      "sha256": "4203d35d1fa612c09f85b2583d2c51b33b56e39f83c8ea14ffdd168889b99b3b"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Baseline_1_normality_qq_DLPFC_REVERS.svg",
+      "bytes": 93684,
+      "sha256": "d4aaa674244470d29a6441ea2559c5a44e21b28a703cd240568699fdbb276eb8"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Baseline_2_comparison_DLPFC_equal.svg",
+      "bytes": 142095,
+      "sha256": "9fc2a9e3aacb41c9d5d6b37322ff487a9d88f5606c0ac909eafb531417da1f0c"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Baseline_2_comparison_DLPFC_REVERS.svg",
+      "bytes": 142637,
+      "sha256": "5bb88ae087cb8b6c6390260e56326bed00af502b3e296df74274469f92672803"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Baseline_2_edge_dropout_plot.svg",
+      "bytes": 40428,
+      "sha256": "7f7494d6c05c7f18eabfb601b34c09d310f8f48a8af0d8e8f16c2ab6e600d9f9"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Baseline_2_edge_equalization_plot.svg",
+      "bytes": 73589,
+      "sha256": "921a167765efd3d570161bbd672fab343015e6289d6fec81036aa27c9657d4e2"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Baseline_2_gradient_change_plot.svg",
+      "bytes": 73757,
+      "sha256": "98b1a150d8ecfaf4807d57a777a522b24e8e8c76dcd07628b7d5fa09976ea9d7"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Baseline_2_normality_qq_DLPFC_equal.svg",
+      "bytes": 91520,
+      "sha256": "5b20df1e2a3d5d4b3f994f881f51db126cee6e25dc7c4737f397415ca5ed755d"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Baseline_2_normality_qq_DLPFC_REVERS.svg",
+      "bytes": 91748,
+      "sha256": "33134abd23a82e4556e2875455936b1b65d661240e05c089f5848dc9185b1a19"
+    },
+    {
+      "path": "figures/Figure3/results/generated/CellAgentChat_comparison_DLPFC_equal.svg",
+      "bytes": 142139,
+      "sha256": "cb13355e76baec423609825e0c1bac5beabcfd0b4e7b2f22c65522c2c2b4553c"
+    },
+    {
+      "path": "figures/Figure3/results/generated/CellAgentChat_comparison_DLPFC_REVERS.svg",
+      "bytes": 145795,
+      "sha256": "6771d00082b41b9b0f9b593064feb28ef5e8d39116d3b5d3a53676a24d66cf3e"
+    },
+    {
+      "path": "figures/Figure3/results/generated/CellAgentChat_edge_dropout_plot.svg",
+      "bytes": 41403,
+      "sha256": "72dbeb44ac0be00748e729d4af7c67fc368719e34c8f12f19582bc249b4a874c"
+    },
+    {
+      "path": "figures/Figure3/results/generated/CellAgentChat_edge_equalization_plot.svg",
+      "bytes": 76172,
+      "sha256": "113494ede038f51855d8c7ef74b6d794995f41d3ef3fc813ffac5d5031d1d6e8"
+    },
+    {
+      "path": "figures/Figure3/results/generated/CellAgentChat_gradient_change_plot.svg",
+      "bytes": 77996,
+      "sha256": "13f2bc18c5ec3b067f6e70af152f5dd52b0759363f95d7a74c5214051d6af06f"
+    },
+    {
+      "path": "figures/Figure3/results/generated/CellAgentChat_normality_qq_DLPFC_equal.svg",
+      "bytes": 88571,
+      "sha256": "e6d0d00b939d1c70aa86cc79ab96f49f17704a665e48bf1ab034ed49c27ec92b"
+    },
+    {
+      "path": "figures/Figure3/results/generated/CellAgentChat_normality_qq_DLPFC_REVERS.svg",
+      "bytes": 91041,
+      "sha256": "87fe50b397424ccaa1e23b1c643166358e65fa8385a721a9c98d8962d11b26ec"
+    },
+    {
+      "path": "figures/Figure3/results/generated/COMMOT_comparison_DLPFC_equal.svg",
+      "bytes": 63801,
+      "sha256": "f0eaccf8908127fe5f6561d37a1c920b16ba259a984fd2fd3df001b6197f93ee"
+    },
+    {
+      "path": "figures/Figure3/results/generated/COMMOT_comparison_DLPFC_REVERS.svg",
+      "bytes": 63802,
+      "sha256": "cfc4275051a061c68ec81e6dff662fa3c9dfff00c892c5085a790a5f3b50ddab"
+    },
+    {
+      "path": "figures/Figure3/results/generated/COMMOT_edge_dropout_plot.svg",
+      "bytes": 39947,
+      "sha256": "821d4358e26abfc7ba1172b4467ab6fcc4f9291bd6766ab179d1ae3fdda55d73"
+    },
+    {
+      "path": "figures/Figure3/results/generated/COMMOT_edge_equalization_plot.svg",
+      "bytes": 35383,
+      "sha256": "7e3cd1305dbf008527c96acfa29b1a5f95f0b8112438b183186613001b0b9b3d"
+    },
+    {
+      "path": "figures/Figure3/results/generated/COMMOT_gradient_change_plot.svg",
+      "bytes": 35381,
+      "sha256": "57c8dbf62a3118a6903ac1636f6804458130f72db7ef83cf38e416bb6c8403e1"
+    },
+    {
+      "path": "figures/Figure3/results/generated/COMMOT_normality_qq_DLPFC_equal.svg",
+      "bytes": 43798,
+      "sha256": "27c2527935fcda9cbe9489f076b01b3312e7988f82a01024f89181bdb517f411"
+    },
+    {
+      "path": "figures/Figure3/results/generated/COMMOT_normality_qq_DLPFC_REVERS.svg",
+      "bytes": 43804,
+      "sha256": "ad8eb401493b5d9d7fccfb9b75ecd15e1aa8f39a8bdcdba09413847ec11937ff"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Giotto_comparison_DLPFC_equal.svg",
+      "bytes": 132497,
+      "sha256": "db93647b1e414a509fbe0e618d9c8c09bd108ec95aa081c776286bf923563842"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Giotto_comparison_DLPFC_REVERS.svg",
+      "bytes": 133131,
+      "sha256": "3ae1823ca65efd2d03a2497cf965658354c73cdc50a0af4a27286399deae748c"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Giotto_edge_dropout_plot.svg",
+      "bytes": 40574,
+      "sha256": "3d7b364ef247efaba4e07f13c620945df3e684190ce0129842aeb59577d5d0b1"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Giotto_edge_equalization_plot.svg",
+      "bytes": 70637,
+      "sha256": "79212196086d6855f4a27588956493f39f2e1e09d63d00b701c680bf58caf3e8"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Giotto_gradient_change_plot.svg",
+      "bytes": 71636,
+      "sha256": "b68a9fd287948dd7a9b7e0843f0213962845d6e4245d99d46bd528adccd7a754"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Giotto_normality_qq_DLPFC_equal.svg",
+      "bytes": 86970,
+      "sha256": "a381bc94677da6b410cf4b918b8dfbe0eb6f72d1e288b586e4029279dd380f13"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Giotto_normality_qq_DLPFC_REVERS.svg",
+      "bytes": 88896,
+      "sha256": "2cc8fb7483833931379dd8929b6ef090bdd71734880b45d97d72dbc70d4614eb"
+    },
+    {
+      "path": "figures/Figure3/results/generated/SpaTalk_comparison_DLPFC_equal.svg",
+      "bytes": 56132,
+      "sha256": "ca6adac6cf29657de11e054aaa7b657f9dfc4413920ebf570d2ee6ee2b0a9856"
+    },
+    {
+      "path": "figures/Figure3/results/generated/SpaTalk_comparison_DLPFC_REVERS.svg",
+      "bytes": 61116,
+      "sha256": "0b754ee492b52653c31ae2e8c4468e4fc9d6e4ae4bfa54455e59ddc247b59e50"
+    },
+    {
+      "path": "figures/Figure3/results/generated/SpaTalk_edge_dropout_plot.svg",
+      "bytes": 41349,
+      "sha256": "954b2dd9b66c85c44339ad27ba092f288006e8c4a4c2dc91635960fac9f9cd11"
+    },
+    {
+      "path": "figures/Figure3/results/generated/SpaTalk_edge_equalization_plot.svg",
+      "bytes": 31911,
+      "sha256": "bc937a8b1b52094608dcadf2017332dfbf93094976b2729bdc6d05b13337b0ba"
+    },
+    {
+      "path": "figures/Figure3/results/generated/SpaTalk_gradient_change_plot.svg",
+      "bytes": 34547,
+      "sha256": "65b136546703d19e5ee1584d4318e2268f7e3884cd501cda51c64730d8f9cc0f"
+    },
+    {
+      "path": "figures/Figure3/results/generated/SpaTalk_normality_qq_DLPFC_equal.svg",
+      "bytes": 36318,
+      "sha256": "5e4de5e3494158dc26683a3bf7d4df06dc998f5202696e608cd1c6abd31c2b8f"
+    },
+    {
+      "path": "figures/Figure3/results/generated/SpaTalk_normality_qq_DLPFC_REVERS.svg",
+      "bytes": 40199,
+      "sha256": "7eebc75f03412b485361435bf08aba08634d24ac6f228622b6f9872edb3c4b13"
+    },
+    {
+      "path": "figures/Figure3/results/generated/SpatialDM_comparison_DLPFC_equal.svg",
+      "bytes": 49487,
+      "sha256": "358bb80bbbe00dbe202ea49421c480950c46a95bb2c8275cb821014617676bef"
+    },
+    {
+      "path": "figures/Figure3/results/generated/SpatialDM_comparison_DLPFC_REVERS.svg",
+      "bytes": 53017,
+      "sha256": "703be9846ce28130c927318ee0803e2ea6afb76b79972c0b76d548b859f34901"
+    },
+    {
+      "path": "figures/Figure3/results/generated/SpatialDM_edge_dropout_plot.svg",
+      "bytes": 41378,
+      "sha256": "03c33a1c2b83c70a508797c3505e5fb8e72312ebf04e6ae33380e1fb0f35d26d"
+    },
+    {
+      "path": "figures/Figure3/results/generated/SpatialDM_edge_equalization_plot.svg",
+      "bytes": 29360,
+      "sha256": "7f0e9291cd727367dbdcdd7bd09d56ce56f3f165745ac83d7d5e402e6ed2c184"
+    },
+    {
+      "path": "figures/Figure3/results/generated/SpatialDM_gradient_change_plot.svg",
+      "bytes": 31837,
+      "sha256": "0fa707940742be9f4803e03ad85af461eb8c94aa74439b464639e484285e0d7b"
+    },
+    {
+      "path": "figures/Figure3/results/generated/SpatialDM_normality_qq_DLPFC_equal.svg",
+      "bytes": 37547,
+      "sha256": "f5abd401c7ffd79706b80c5e297f32ec081c762197facf141d04889343a1f2f5"
+    },
+    {
+      "path": "figures/Figure3/results/generated/SpatialDM_normality_qq_DLPFC_REVERS.svg",
+      "bytes": 32587,
+      "sha256": "500fc18ff298c28e1f85f9a1fdd3d1e4c79994be9c0f658a09438038b5669210"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Squidpy_comparison_DLPFC_equal.svg",
+      "bytes": 152876,
+      "sha256": "a1dbf6f56f7dcc0186829569adec4a324b553b29f540815de92924a4546a6a48"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Squidpy_comparison_DLPFC_REVERS.svg",
+      "bytes": 152862,
+      "sha256": "4798a4a353b23afaba22d143ddcfec68b10edbae4b166ef9cdb7f35d575a4cb5"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Squidpy_edge_dropout_plot.svg",
+      "bytes": 39236,
+      "sha256": "2c8f0e3cd3f39cd6dfbea173d8d8bf6774cfaa949ecc8430b30c1a03ad218051"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Squidpy_edge_equalization_plot.svg",
+      "bytes": 80801,
+      "sha256": "ac84595decee01216a9af19a189ab61eab417be46d978a6ffb0cd85dd7424d01"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Squidpy_gradient_change_plot.svg",
+      "bytes": 80754,
+      "sha256": "ba43ea3980df7495c61fa30ba8c7eb986030c171a51e5e23c195722e9d6297d3"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Squidpy_normality_qq_DLPFC_equal.svg",
+      "bytes": 92934,
+      "sha256": "a506f8fe2a4fb86b6faa7bc4b55c7ae2922523e890ff21d8d2e1ae2877ab4ed1"
+    },
+    {
+      "path": "figures/Figure3/results/generated/Squidpy_normality_qq_DLPFC_REVERS.svg",
+      "bytes": 92919,
+      "sha256": "2cc77b94d6965e883bbde49aeca68873c4bb4f37f16b77978ab778b30d44fd14"
+    },
+    {
+      "path": "figures/Figure3/results/generated/stLearn_comparison_DLPFC_equal.svg",
+      "bytes": 207194,
+      "sha256": "d0848976057317720ef37726f0f4f7aefa9b082d16a7278f3bbb9b2fef55f406"
+    },
+    {
+      "path": "figures/Figure3/results/generated/stLearn_comparison_DLPFC_REVERS.svg",
+      "bytes": 207084,
+      "sha256": "dc88c731eaffdaac5ef1c0d38477840b92fb5695409c354cea79a7abb545469a"
+    },
+    {
+      "path": "figures/Figure3/results/generated/stLearn_edge_dropout_plot.svg",
+      "bytes": 39151,
+      "sha256": "3723acccd1ed104f3f85ac25a15bcd5311030a0df3eee73d9474f142be086b3e"
+    },
+    {
+      "path": "figures/Figure3/results/generated/stLearn_edge_equalization_plot.svg",
+      "bytes": 107899,
+      "sha256": "8ceaf80ee002e5a89f2e5f1527579e72b62ddea985df52243b43f36592258cb1"
+    },
+    {
+      "path": "figures/Figure3/results/generated/stLearn_gradient_change_plot.svg",
+      "bytes": 107896,
+      "sha256": "9e3a68fa508eb37ff2c1c0b3692a7555b82a1212714efcc4f282447a7b366376"
+    },
+    {
+      "path": "figures/Figure3/results/generated/stLearn_normality_qq_DLPFC_equal.svg",
+      "bytes": 128069,
+      "sha256": "36b0d27d0bc1e89e6a8d25a86938ca2611ddf1c3b8a2e82fa65188ab30c7c81a"
+    },
+    {
+      "path": "figures/Figure3/results/generated/stLearn_normality_qq_DLPFC_REVERS.svg",
+      "bytes": 127807,
+      "sha256": "315b8077f450d20d6b9b2cfe968fa92dca02269691a1b662613d8d35415fbee6"
+    },
+    {
+      "path": "figures/Figure3/results/generated/stLearn_without_spotmixture_comparison_DLPFC_equal.svg",
+      "bytes": 206427,
+      "sha256": "bc98728f2b94056822b50173d69d5032142b4af626d982d56021e73fcf46e71f"
+    },
+    {
+      "path": "figures/Figure3/results/generated/stLearn_without_spotmixture_comparison_DLPFC_REVERS.svg",
+      "bytes": 206270,
+      "sha256": "a3a0033594d019521c6b400772266a02fb96be5258af3e80bbd3b45facf2ac0c"
+    },
+    {
+      "path": "figures/Figure3/results/generated/stLearn_without_spotmixture_edge_dropout_plot.svg",
+      "bytes": 39173,
+      "sha256": "ac33cde0c74a2994f634a679755fb95642c5d111546a95d8eec306855244a0f1"
+    },
+    {
+      "path": "figures/Figure3/results/generated/stLearn_without_spotmixture_edge_equalization_plot.svg",
+      "bytes": 107599,
+      "sha256": "a5205abf80ebaa06049a3e2b920ebb1d4f29ecba82c3b4b3cf35b93ab7c32591"
+    },
+    {
+      "path": "figures/Figure3/results/generated/stLearn_without_spotmixture_gradient_change_plot.svg",
+      "bytes": 107433,
+      "sha256": "ed442784bf009ef3e29d279890d8d2e66283842db92e098ccdcbb78a4fe61fa5"
+    },
+    {
+      "path": "figures/Figure3/results/generated/stLearn_without_spotmixture_normality_qq_DLPFC_equal.svg",
+      "bytes": 127830,
+      "sha256": "24fe1353fc08fb44427a988b1d99ae4b4353cd6823c1bfae823be5f3e9ae57b9"
+    },
+    {
+      "path": "figures/Figure3/results/generated/stLearn_without_spotmixture_normality_qq_DLPFC_REVERS.svg",
+      "bytes": 127578,
+      "sha256": "a48eaef696758e3080910ff8cc067b6ce35a947b0619c9881a12bbd57de8172c"
+    }
+  ],
+  "notes": "Boundary panels use the compact ligand-count export derived from the latest local results; the submitted layout remains a separate manual assembly."
+}

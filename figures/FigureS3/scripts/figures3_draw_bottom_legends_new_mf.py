@@ -208,10 +208,8 @@ def save_full_composite_bottom(dataset_rows: list[tuple[dict[str, object], list[
         hspace=0.54,
     )
     row_offsets = [0, 4]
-    panel_y = [0.982, 0.492]
     for dataset_idx, (config, rows) in enumerate(dataset_rows):
         offset = row_offsets[dataset_idx]
-        fig.text(0.014, panel_y[dataset_idx], str(config["panel"]), fontsize=22, fontfamily="Arial")
         for r in range(3):
             for c in range(4):
                 render_spec_bottom(rows[r][c], ax=fig.add_subplot(gs[offset + r, c]))

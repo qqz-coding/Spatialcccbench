@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="453.789687pt" height="337.108594pt" viewBox="0 0 453.789687 337.108594" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-30T11:46:03.852055</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 337.108594 
+L 453.789687 337.108594 
+L 453.789687 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 45.275938 301.994531 
+L 446.589687 301.994531 
+L 446.589687 31.094531 
+L 45.275938 31.094531 
+z
+" style="fill: #eeeeee"/>
+   </g>
+   <g id="FillBetweenPolyCollection_1">
+    <defs>
+     <path id="m72936c0697" d="M 63.517472 -48.002057 
+L 63.517472 -47.427699 
+L 65.350792 -48.66206 
+L 67.184112 -49.896349 
+L 69.017432 -51.130563 
+L 70.850752 -52.364701 
+L 72.684072 -53.598759 
+L 74.517392 -54.832735 
+L 76.350712 -56.066628 
+L 78.184032 -57.300433 
+L 80.017352 -58.53415 
+L 81.850672 -59.767776 
+L 83.683992 -61.001307 
+L 85.517312 -62.234743 
+L 87.350632 -63.46808 
+L 89.183952 -64.701316 
+L 91.017272 -65.934449 
+L 92.850592 -67.167476 
+L 94.683912 -68.400396 
+L 96.517232 -69.633206 
+L 98.350552 -70.865904 
+L 100.183872 -72.098489 
+L 102.017192 -73.330959 
+L 103.850512 -74.563312 
+L 105.683832 -75.795547 
+L 107.517152 -77.027662 
+L 109.350472 -78.259656 
+L 111.183792 -79.491528 
+L 113.017112 -80.723278 
+L 114.850432 -81.954905 
+L 116.683752 -83.186407 
+L 118.517072 -84.417786 
+L 120.350392 -85.649041 
+L 122.183712 -86.880172 
+L 124.017032 -88.11118 
+L 125.850352 -89.342064 
+L 127.683672 -90.572827 
+L 129.516992 -91.803467 
+L 131.350312 -93.033988 
+L 133.183632 -94.264389 
+L 135.016952 -95.494673 
+L 136.850272 -96.724841 
+L 138.683592 -97.954894 
+L 140.516912 -99.184834 
+L 142.350232 -100.414663 
+L 144.183552 -101.644384 
+L 146.016872 -102.873998 
+L 147.850192 -104.103507 
+L 149.683512 -105.332915 
+L 151.516832 -106.562222 
+L 153.350152 -107.791432 
+L 155.183472 -109.020546 
+L 157.016792 -110.249568 
+L 158.850112 -111.4785 
+L 160.683432 -112.707343 
+L 162.516752 -113.936101 
+L 164.350072 -115.164776 
+L 166.183392 -116.393371 
+L 168.016712 -117.621887 
+L 169.850032 -118.850327 
+L 171.683352 -120.078693 
+L 173.516672 -121.306988 
+L 175.349992 -122.535214 
+L 177.183312 -123.763373 
+L 179.016632 -124.991468 
+L 180.849952 -126.2195 
+L 182.683272 -127.447471 
+L 184.516592 -128.675383 
+L 186.349912 -129.903239 
+L 188.183232 -131.13104 
+L 190.016552 -132.358788 
+L 191.849872 -133.586484 
+L 193.683192 -134.814131 
+L 195.516512 -136.041731 
+L 197.349832 -137.269284 
+L 199.183152 -138.496792 
+L 201.016472 -139.724258 
+L 202.849792 -140.951681 
+L 204.683112 -142.179065 
+L 206.516432 -143.406409 
+L 208.349752 -144.633716 
+L 210.183072 -145.860986 
+L 212.016392 -147.088221 
+L 213.849712 -148.315422 
+L 215.683032 -149.542591 
+L 217.516352 -150.769727 
+L 219.349672 -151.996833 
+L 221.182992 -153.223909 
+L 223.016312 -154.450957 
+L 224.849632 -155.677976 
+L 226.682952 -156.904969 
+L 228.516272 -158.131935 
+L 230.349592 -159.358877 
+L 232.182912 -160.585794 
+L 234.016232 -161.812687 
+L 235.849552 -163.039558 
+L 237.682872 -164.266406 
+L 239.516192 -165.493233 
+L 241.349512 -166.72004 
+L 243.182832 -167.946826 
+L 245.016152 -169.173592 
+L 246.849473 -170.40034 
+L 248.682793 -171.627069 
+L 250.516113 -172.853781 
+L 252.349433 -174.080475 
+L 254.182753 -175.307152 
+L 256.016073 -176.533814 
+L 257.849393 -177.760459 
+L 259.682713 -178.987089 
+L 261.516033 -180.213705 
+L 263.349353 -181.440306 
+L 265.182673 -182.666892 
+L 267.015993 -183.893466 
+L 268.849313 -185.120026 
+L 270.682633 -186.346573 
+L 272.515953 -187.573108 
+L 274.349273 -188.79963 
+L 276.182593 -190.026141 
+L 278.015913 -191.25264 
+L 279.849233 -192.479128 
+L 281.682553 -193.705605 
+L 283.515873 -194.932072 
+L 285.349193 -196.158528 
+L 287.182513 -197.384974 
+L 289.015833 -198.611411 
+L 290.849153 -199.837837 
+L 292.682473 -201.064255 
+L 294.515793 -202.290664 
+L 296.349113 -203.517064 
+L 298.182433 -204.743455 
+L 300.015753 -205.969838 
+L 301.849073 -207.196213 
+L 303.682393 -208.422579 
+L 305.515713 -209.648938 
+L 307.349033 -210.87529 
+L 309.182353 -212.101634 
+L 311.015673 -213.327971 
+L 312.848993 -214.554301 
+L 314.682313 -215.780624 
+L 316.515633 -217.00694 
+L 318.348953 -218.23325 
+L 320.182273 -219.459554 
+L 322.015593 -220.685851 
+L 323.848913 -221.912142 
+L 325.682233 -223.138427 
+L 327.515553 -224.364707 
+L 329.348873 -225.59098 
+L 331.182193 -226.817249 
+L 333.015513 -228.043511 
+L 334.848833 -229.269769 
+L 336.682153 -230.496021 
+L 338.515473 -231.722268 
+L 340.348793 -232.94851 
+L 342.182113 -234.174748 
+L 344.015433 -235.40098 
+L 345.848753 -236.627208 
+L 347.682073 -237.853432 
+L 349.515393 -239.079651 
+L 351.348713 -240.305865 
+L 353.182033 -241.532076 
+L 355.015353 -242.758282 
+L 356.848673 -243.984484 
+L 358.681993 -245.210682 
+L 360.515313 -246.436876 
+L 362.348633 -247.663067 
+L 364.181953 -248.889253 
+L 366.015273 -250.115436 
+L 367.848593 -251.341615 
+L 369.681913 -252.567791 
+L 371.515233 -253.793963 
+L 373.348553 -255.020132 
+L 375.181873 -256.246297 
+L 377.015193 -257.472459 
+L 378.848513 -258.698618 
+L 380.681833 -259.924774 
+L 382.515153 -261.150927 
+L 384.348473 -262.377077 
+L 386.181793 -263.603223 
+L 388.015113 -264.829367 
+L 389.848433 -266.055508 
+L 391.681753 -267.281646 
+L 393.515073 -268.507781 
+L 395.348393 -269.733914 
+L 397.181713 -270.960044 
+L 399.015033 -272.186171 
+L 400.848353 -273.412296 
+L 402.681673 -274.638418 
+L 404.514993 -275.864538 
+L 406.348313 -277.090655 
+L 408.181633 -278.31677 
+L 410.014953 -279.542883 
+L 411.848273 -280.768993 
+L 413.681593 -281.995101 
+L 415.514913 -283.221207 
+L 417.348233 -284.447311 
+L 419.181553 -285.673412 
+L 421.014873 -286.899512 
+L 422.848193 -288.125609 
+L 424.681513 -289.351704 
+L 426.514833 -290.577797 
+L 428.348153 -291.803889 
+L 428.348153 -293.700426 
+L 428.348153 -293.700426 
+L 426.514833 -292.463831 
+L 424.681513 -291.227238 
+L 422.848193 -289.990647 
+L 421.014873 -288.754058 
+L 419.181553 -287.517471 
+L 417.348233 -286.280886 
+L 415.514913 -285.044304 
+L 413.681593 -283.807723 
+L 411.848273 -282.571145 
+L 410.014953 -281.334569 
+L 408.181633 -280.097996 
+L 406.348313 -278.861424 
+L 404.514993 -277.624856 
+L 402.681673 -276.388289 
+L 400.848353 -275.151725 
+L 399.015033 -273.915164 
+L 397.181713 -272.678605 
+L 395.348393 -271.442049 
+L 393.515073 -270.205495 
+L 391.681753 -268.968944 
+L 389.848433 -267.732396 
+L 388.015113 -266.495851 
+L 386.181793 -265.259308 
+L 384.348473 -264.022769 
+L 382.515153 -262.786232 
+L 380.681833 -261.549699 
+L 378.848513 -260.313168 
+L 377.015193 -259.076641 
+L 375.181873 -257.840117 
+L 373.348553 -256.603596 
+L 371.515233 -255.367079 
+L 369.681913 -254.130565 
+L 367.848593 -252.894054 
+L 366.015273 -251.657547 
+L 364.181953 -250.421044 
+L 362.348633 -249.184544 
+L 360.515313 -247.948048 
+L 358.681993 -246.711556 
+L 356.848673 -245.475068 
+L 355.015353 -244.238584 
+L 353.182033 -243.002104 
+L 351.348713 -241.765628 
+L 349.515393 -240.529156 
+L 347.682073 -239.292689 
+L 345.848753 -238.056226 
+L 344.015433 -236.819768 
+L 342.182113 -235.583314 
+L 340.348793 -234.346865 
+L 338.515473 -233.110421 
+L 336.682153 -231.873982 
+L 334.848833 -230.637548 
+L 333.015513 -229.40112 
+L 331.182193 -228.164696 
+L 329.348873 -226.928278 
+L 327.515553 -225.691866 
+L 325.682233 -224.455459 
+L 323.848913 -223.219058 
+L 322.015593 -221.982663 
+L 320.182273 -220.746274 
+L 318.348953 -219.509891 
+L 316.515633 -218.273514 
+L 314.682313 -217.037145 
+L 312.848993 -215.800781 
+L 311.015673 -214.564425 
+L 309.182353 -213.328076 
+L 307.349033 -212.091734 
+L 305.515713 -210.855399 
+L 303.682393 -209.619072 
+L 301.849073 -208.382752 
+L 300.015753 -207.146441 
+L 298.182433 -205.910138 
+L 296.349113 -204.673843 
+L 294.515793 -203.437556 
+L 292.682473 -202.201279 
+L 290.849153 -200.96501 
+L 289.015833 -199.728751 
+L 287.182513 -198.492501 
+L 285.349193 -197.256261 
+L 283.515873 -196.020031 
+L 281.682553 -194.783811 
+L 279.849233 -193.547602 
+L 278.015913 -192.311404 
+L 276.182593 -191.075217 
+L 274.349273 -189.839042 
+L 272.515953 -188.602878 
+L 270.682633 -187.366726 
+L 268.849313 -186.130587 
+L 267.015993 -184.894461 
+L 265.182673 -183.658348 
+L 263.349353 -182.422249 
+L 261.516033 -181.186163 
+L 259.682713 -179.950092 
+L 257.849393 -178.714036 
+L 256.016073 -177.477996 
+L 254.182753 -176.241971 
+L 252.349433 -175.005962 
+L 250.516113 -173.76997 
+L 248.682793 -172.533995 
+L 246.849473 -171.298038 
+L 245.016152 -170.0621 
+L 243.182832 -168.82618 
+L 241.349512 -167.59028 
+L 239.516192 -166.3544 
+L 237.682872 -165.118541 
+L 235.849552 -163.882703 
+L 234.016232 -162.646887 
+L 232.182912 -161.411095 
+L 230.349592 -160.175325 
+L 228.516272 -158.939581 
+L 226.682952 -157.703861 
+L 224.849632 -156.468167 
+L 223.016312 -155.232501 
+L 221.182992 -153.996862 
+L 219.349672 -152.761252 
+L 217.516352 -151.525671 
+L 215.683032 -150.290122 
+L 213.849712 -149.054604 
+L 212.016392 -147.819119 
+L 210.183072 -146.583668 
+L 208.349752 -145.348252 
+L 206.516432 -144.112872 
+L 204.683112 -142.87753 
+L 202.849792 -141.642227 
+L 201.016472 -140.406965 
+L 199.183152 -139.171744 
+L 197.349832 -137.936566 
+L 195.516512 -136.701433 
+L 193.683192 -135.466346 
+L 191.849872 -134.231307 
+L 190.016552 -132.996318 
+L 188.183232 -131.761379 
+L 186.349912 -130.526494 
+L 184.516592 -129.291664 
+L 182.683272 -128.05689 
+L 180.849952 -126.822175 
+L 179.016632 -125.58752 
+L 177.183312 -124.352928 
+L 175.349992 -123.118401 
+L 173.516672 -121.883941 
+L 171.683352 -120.64955 
+L 169.850032 -119.41523 
+L 168.016712 -118.180984 
+L 166.183392 -116.946814 
+L 164.350072 -115.712722 
+L 162.516752 -114.478711 
+L 160.683432 -113.244782 
+L 158.850112 -112.01094 
+L 157.016792 -110.777185 
+L 155.183472 -109.543521 
+L 153.350152 -108.309949 
+L 151.516832 -107.076472 
+L 149.683512 -105.843093 
+L 147.850192 -104.609815 
+L 146.016872 -103.376638 
+L 144.183552 -102.143566 
+L 142.350232 -100.9106 
+L 140.516912 -99.677743 
+L 138.683592 -98.444997 
+L 136.850272 -97.212364 
+L 135.016952 -95.979845 
+L 133.183632 -94.747443 
+L 131.350312 -93.515158 
+L 129.516992 -92.282992 
+L 127.683672 -91.050947 
+L 125.850352 -89.819023 
+L 124.017032 -88.587221 
+L 122.183712 -87.355543 
+L 120.350392 -86.123987 
+L 118.517072 -84.892556 
+L 116.683752 -83.661249 
+L 114.850432 -82.430065 
+L 113.017112 -81.199006 
+L 111.183792 -79.968069 
+L 109.350472 -78.737255 
+L 107.517152 -77.506563 
+L 105.683832 -76.275992 
+L 103.850512 -75.04554 
+L 102.017192 -73.815207 
+L 100.183872 -72.584991 
+L 98.350552 -71.354889 
+L 96.517232 -70.124902 
+L 94.683912 -68.895026 
+L 92.850592 -67.665259 
+L 91.017272 -66.4356 
+L 89.183952 -65.206047 
+L 87.350632 -63.976597 
+L 85.517312 -62.747247 
+L 83.683992 -61.517997 
+L 81.850672 -60.288842 
+L 80.017352 -59.059781 
+L 78.184032 -57.830812 
+L 76.350712 -56.601932 
+L 74.517392 -55.373138 
+L 72.684072 -54.144428 
+L 70.850752 -52.9158 
+L 69.017432 -51.687251 
+L 67.184112 -50.458779 
+L 65.350792 -49.230382 
+L 63.517472 -48.002057 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p5773bf1bf6)">
+     <use xlink:href="#m72936c0697" x="0" y="337.108594" style="fill: #d62728; fill-opacity: 0.15"/>
+    </g>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 45.275938 301.994531 
+L 45.275938 31.094531 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m0689498084" d="M 0 0 
+L 0 -3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m0689498084" x="45.275938" y="301.994531" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: middle" x="45.275938" y="312.652344" transform="rotate(-0 45.275938 312.652344)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 90.879773 301.994531 
+L 90.879773 31.094531 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m0689498084" x="90.879773" y="301.994531" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: middle" x="90.879773" y="312.652344" transform="rotate(-0 90.879773 312.652344)">2.5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 136.483608 301.994531 
+L 136.483608 31.094531 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m0689498084" x="136.483608" y="301.994531" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: middle" x="136.483608" y="312.652344" transform="rotate(-0 136.483608 312.652344)">5.0</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 182.087443 301.994531 
+L 182.087443 31.094531 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m0689498084" x="182.087443" y="301.994531" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: middle" x="182.087443" y="312.652344" transform="rotate(-0 182.087443 312.652344)">7.5</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 227.691278 301.994531 
+L 227.691278 31.094531 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m0689498084" x="227.691278" y="301.994531" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: middle" x="227.691278" y="312.652344" transform="rotate(-0 227.691278 312.652344)">10.0</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 273.295114 301.994531 
+L 273.295114 31.094531 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m0689498084" x="273.295114" y="301.994531" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: middle" x="273.295114" y="312.652344" transform="rotate(-0 273.295114 312.652344)">12.5</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 318.898949 301.994531 
+L 318.898949 31.094531 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m0689498084" x="318.898949" y="301.994531" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: middle" x="318.898949" y="312.652344" transform="rotate(-0 318.898949 312.652344)">15.0</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_15">
+      <path d="M 364.502784 301.994531 
+L 364.502784 31.094531 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m0689498084" x="364.502784" y="301.994531" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: middle" x="364.502784" y="312.652344" transform="rotate(-0 364.502784 312.652344)">17.5</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_17">
+      <path d="M 410.106619 301.994531 
+L 410.106619 31.094531 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m0689498084" x="410.106619" y="301.994531" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: middle" x="410.106619" y="312.652344" transform="rotate(-0 410.106619 312.652344)">20.0</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 12px; font-family: 'Arial', sans-serif; text-anchor: middle" x="245.932812" y="327.382969" transform="rotate(-0 245.932812 327.382969)">Original ligand signal</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_19">
+      <path d="M 45.275938 301.795706 
+L 446.589687 301.795706 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_20">
+      <defs>
+       <path id="m24b078de63" d="M 0 0 
+L 3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m24b078de63" x="45.275938" y="301.795706" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: end" x="41.775938" y="305.374612" transform="rotate(-0 41.775938 305.374612)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_21">
+      <path d="M 45.275938 271.182475 
+L 446.589687 271.182475 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m24b078de63" x="45.275938" y="271.182475" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: end" x="41.775938" y="274.761382" transform="rotate(-0 41.775938 274.761382)">2.5</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_23">
+      <path d="M 45.275938 240.569245 
+L 446.589687 240.569245 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m24b078de63" x="45.275938" y="240.569245" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: end" x="41.775938" y="244.148151" transform="rotate(-0 41.775938 244.148151)">5.0</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_25">
+      <path d="M 45.275938 209.956015 
+L 446.589687 209.956015 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m24b078de63" x="45.275938" y="209.956015" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: end" x="41.775938" y="213.534921" transform="rotate(-0 41.775938 213.534921)">7.5</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_27">
+      <path d="M 45.275938 179.342784 
+L 446.589687 179.342784 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m24b078de63" x="45.275938" y="179.342784" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: end" x="41.775938" y="182.921691" transform="rotate(-0 41.775938 182.921691)">10.0</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_29">
+      <path d="M 45.275938 148.729554 
+L 446.589687 148.729554 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m24b078de63" x="45.275938" y="148.729554" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: end" x="41.775938" y="152.30846" transform="rotate(-0 41.775938 152.30846)">12.5</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_31">
+      <path d="M 45.275938 118.116324 
+L 446.589687 118.116324 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#m24b078de63" x="45.275938" y="118.116324" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: end" x="41.775938" y="121.69523" transform="rotate(-0 41.775938 121.69523)">15.0</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_33">
+      <path d="M 45.275938 87.503093 
+L 446.589687 87.503093 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#m24b078de63" x="45.275938" y="87.503093" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: end" x="41.775938" y="91.082" transform="rotate(-0 41.775938 91.082)">17.5</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_35">
+      <path d="M 45.275938 56.889863 
+L 446.589687 56.889863 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #b2b2b2; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_36">
+      <g>
+       <use xlink:href="#m24b078de63" x="45.275938" y="56.889863" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 10px; font-family: 'Arial', sans-serif; text-anchor: end" x="41.775938" y="60.468769" transform="rotate(-0 41.775938 60.468769)">20.0</text>
+     </g>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 12px; font-family: 'Arial', sans-serif; text-anchor: middle" x="15.789375" y="166.544531" transform="rotate(-90 15.789375 166.544531)">Ligand signal under gradient change</text>
+    </g>
+   </g>
+   <g id="line2d_37">
+    <path d="M 63.517472 289.393716 
+L 428.348153 44.356436 
+L 428.348153 44.356436 
+" clip-path="url(#p5773bf1bf6)" style="fill: none; stroke: #d62728; stroke-opacity: 0.9; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 45.275938 301.994531 
+L 45.275938 31.094531 
+" style="fill: none; stroke: #bcbcbc; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 446.589687 301.994531 
+L 446.589687 31.094531 
+" style="fill: none; stroke: #bcbcbc; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 45.275938 301.994531 
+L 446.589688 301.994531 
+" style="fill: none; stroke: #bcbcbc; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 45.275938 31.094531 
+L 446.589688 31.094531 
+" style="fill: none; stroke: #bcbcbc; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="mec8fa5b546" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+    </defs>
+    <g clip-path="url(#p5773bf1bf6)">
+     <use xlink:href="#mec8fa5b546" x="428.348153" y="44.644571" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="428.348153" y="44.644571" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="428.348153" y="44.644571" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="428.348153" y="44.644571" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="428.348153" y="44.644571" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="428.348153" y="44.644571" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="428.348153" y="44.644571" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="428.348153" y="44.644571" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="410.106619" y="56.889863" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="373.623551" y="81.380447" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="318.898949" y="118.116324" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="318.898949" y="118.116324" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="318.898949" y="118.116324" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="318.898949" y="118.116324" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="318.898949" y="118.116324" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="318.898949" y="118.116324" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="318.898949" y="118.116324" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="318.898949" y="118.116324" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="318.898949" y="118.116324" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="318.898949" y="118.116324" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="300.657415" y="130.361616" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="300.657415" y="130.361616" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="300.657415" y="130.361616" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="300.657415" y="130.361616" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="300.657415" y="130.361616" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="300.657415" y="130.361616" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="300.657415" y="130.361616" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="300.657415" y="130.361616" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="300.657415" y="130.361616" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="300.657415" y="130.361616" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="300.657415" y="130.361616" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="300.657415" y="130.361616" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="282.415881" y="142.606908" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="282.415881" y="142.606908" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="282.415881" y="142.606908" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="282.415881" y="142.606908" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="282.415881" y="142.606908" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="282.415881" y="142.606908" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="282.415881" y="142.606908" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="282.415881" y="142.606908" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="282.415881" y="142.606908" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="282.415881" y="142.606908" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="264.174347" y="154.8522" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="264.174347" y="154.8522" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="264.174347" y="154.8522" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="264.174347" y="154.8522" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="264.174347" y="154.8522" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="264.174347" y="154.8522" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="264.174347" y="142.606908" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="264.174347" y="154.8522" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="264.174347" y="154.8522" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="245.932813" y="167.097492" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="245.932813" y="167.097492" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="245.932813" y="167.097492" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="245.932813" y="154.8522" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="227.691278" y="179.342784" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="227.691278" y="179.342784" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="227.691278" y="179.342784" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="209.449744" y="203.833369" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="209.449744" y="191.588076" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="209.449744" y="191.588076" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="209.449744" y="167.097492" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="191.20821" y="203.833369" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="191.20821" y="203.833369" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="191.20821" y="216.078661" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="191.20821" y="203.833369" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="191.20821" y="203.833369" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="191.20821" y="203.833369" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="191.20821" y="203.833369" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="191.20821" y="191.588076" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="191.20821" y="203.833369" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="191.20821" y="203.833369" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="191.20821" y="203.833369" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="191.20821" y="203.833369" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="191.20821" y="203.833369" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="191.20821" y="203.833369" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="172.966676" y="216.078661" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="172.966676" y="216.078661" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="172.966676" y="216.078661" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="172.966676" y="216.078661" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="172.966676" y="216.078661" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="172.966676" y="216.078661" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="172.966676" y="216.078661" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="172.966676" y="216.078661" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="172.966676" y="216.078661" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="172.966676" y="216.078661" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="172.966676" y="216.078661" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="172.966676" y="216.078661" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="172.966676" y="216.078661" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="154.725142" y="228.323953" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="154.725142" y="228.323953" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="154.725142" y="228.323953" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="154.725142" y="228.323953" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="154.725142" y="228.323953" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="154.725142" y="228.323953" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="154.725142" y="228.323953" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="154.725142" y="228.323953" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="154.725142" y="228.323953" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="154.725142" y="228.323953" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="154.725142" y="228.323953" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="154.725142" y="228.323953" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="154.725142" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="154.725142" y="228.323953" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="154.725142" y="228.323953" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="136.483608" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="118.242074" y="252.814537" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="100.00054" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="265.059829" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="240.569245" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="81.759006" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="277.305121" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+     <use xlink:href="#mec8fa5b546" x="63.517472" y="289.550413" style="fill: #d62728; fill-opacity: 0.5; stroke: #d62728; stroke-opacity: 0.5; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Arial', sans-serif; text-anchor: start" x="65.341625" y="53.228906" transform="rotate(-0 65.341625 53.228906)">PCC=9.9879e-01 </text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Arial', sans-serif; text-anchor: start" x="45.275938" y="25.094531" transform="rotate(-0 45.275938 25.094531)">stLearn</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5773bf1bf6">
+   <rect x="45.275938" y="31.094531" width="401.31375" height="270.9"/>
+  </clipPath>
+ </defs>
+</svg>

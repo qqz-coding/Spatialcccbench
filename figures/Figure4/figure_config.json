@@ -2,7 +2,7 @@
   "figure": "Figure4",
   "caption": "Robustness analysis under six noise perturbations.",
   "status": "computational_figure4b_manual_figure4a_assembly",
-  "notes": "Noise robustness panels are reproducible from processed metrics; schematic remains reference-only.",
+  "notes": "Noise robustness panels are reproducible from the latest processed_noise metrics. The bundled result_summary is synchronized with Figure5; the schematic remains reference-only.",
   "published_result": "results/published/Figure4.svg",
   "steps": [
     {

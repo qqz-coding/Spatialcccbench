@@ -1,0 +1,79 @@
+{
+  "figure": "Figure4",
+  "status": "computational_figure4b_manual_figure4a_assembly",
+  "caption": "Robustness analysis under six noise perturbations.",
+  "updated_at": "2026-08-30T11:45:43+08:00",
+  "published_result": "figures/Figure4/results/published/Figure4.svg",
+  "published_result_sha256": "07e89081caa7e0d0adb7a74bdf24544bf0620d7437b1b67051017e0c91c9c9de",
+  "data_root": "data",
+  "redraw_requested": true,
+  "steps": [
+    "noise robustness SVGs"
+  ],
+  "executed_steps": [
+    "noise robustness SVGs"
+  ],
+  "generated_files": [
+    {
+      "path": "figures/Figure4/results/generated/processed_noise.used.csv",
+      "bytes": 4388,
+      "sha256": "5511e41149a4a7a92a3fa11972caaa158de7e64e3c03dd122aad9c0217ce34f2"
+    },
+    {
+      "path": "figures/Figure4/results/generated/svg/Baseline_1_spider_plot.svg",
+      "bytes": 56614,
+      "sha256": "aa245cd504d8927064f054bc8fe04dbece946922c6e5f9d310f0161f79a5e1a3"
+    },
+    {
+      "path": "figures/Figure4/results/generated/svg/Baseline_2_spider_plot.svg",
+      "bytes": 56610,
+      "sha256": "bbf1693d41fca54736425658ab81f30c04b44017ce9e45a25a747d15627ce007"
+    },
+    {
+      "path": "figures/Figure4/results/generated/svg/CellAgentChat_spider_plot.svg",
+      "bytes": 56789,
+      "sha256": "96952629fe2b21804c255e1922b12ed4e33df487cbbb18664879693b3f6f59e9"
+    },
+    {
+      "path": "figures/Figure4/results/generated/svg/COMMOT_spider_plot.svg",
+      "bytes": 56781,
+      "sha256": "3ab84b748df1ca99dc0b0879cb6fcd7ba6e0d464db1cf7cb8d3453ea8d2d29bd"
+    },
+    {
+      "path": "figures/Figure4/results/generated/svg/Giotto_spider_plot.svg",
+      "bytes": 56800,
+      "sha256": "3703ddb5f3b74507c4d53788aaa2eb334805e174fe789014a40740ad371ee381"
+    },
+    {
+      "path": "figures/Figure4/results/generated/svg/precision_recall_f1_legend.svg",
+      "bytes": 3773,
+      "sha256": "93763ed7eda7d6040a49b8af75f020ad7a0ef6ae4b90d3ebfdc458838aee6beb"
+    },
+    {
+      "path": "figures/Figure4/results/generated/svg/SpaTalk_spider_plot.svg",
+      "bytes": 56790,
+      "sha256": "f1c6eda58eed8f2cdc9fda81ead17a91d781d400174c491e37e17b8e0d611698"
+    },
+    {
+      "path": "figures/Figure4/results/generated/svg/SpatialDM_spider_plot.svg",
+      "bytes": 56821,
+      "sha256": "5e60e8bf31c5916eceb1f9822538155d12c5791199dcfaa1ed3c7efe0f5ce7e9"
+    },
+    {
+      "path": "figures/Figure4/results/generated/svg/Squidpy_spider_plot.svg",
+      "bytes": 56765,
+      "sha256": "aefee3ffdd7776a109b74b506260d43c8244b19b0e72cbcc86d1cf4e2a1ff3bb"
+    },
+    {
+      "path": "figures/Figure4/results/generated/svg/stLearn_spider_plot.svg",
+      "bytes": 56774,
+      "sha256": "ec40b02907a698826a3dae84d93b0a3d990959ac3b3064cbb1c03b7b74a760d6"
+    },
+    {
+      "path": "figures/Figure4/results/generated/svg/stLearn_without_spotmixture_spider_plot.svg",
+      "bytes": 56777,
+      "sha256": "ef53d0fba021d8e0d53c1330ef2a5731fb85505439e73a64b41edd0ca09eb38a"
+    }
+  ],
+  "notes": "Noise robustness panels are reproducible from the latest processed_noise metrics. The bundled result_summary is synchronized with Figure5; the schematic remains reference-only."
+}
